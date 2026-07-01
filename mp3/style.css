@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'PortoSync';
+  src: url('SF-Pro-Display-Medium.otf') format('opentype');
+}
+
+*{
+box-sizing:border-box;
+font-family:'PortoSync',sans-serif;
+}
+
+body{
+margin:0;
+min-height:100vh;
+color:#fff;
+display:flex;
+align-items:center;
+justify-content:center;
+overflow:auto;
+}
+
+body::before{
+content:"";
+position:fixed;
+inset:0;
+background:url("newbgmarch.png") no-repeat center/cover;
+z-index:-1;
+}
+
+@media (max-width:768px){
+
+body::before{
+background:url("newbgmarch.png") no-repeat center/cover;
+}
+
+}
+
+.player{
+
+width:100%;
+max-width:380px;
+padding:26px;
+border-radius:56px;
+background:rgba(255,255,255,0.12);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,0.35);
+box-shadow:0 8px 40px rgba(0,0,0,0.4);
+
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:18px;
+
+}
+
+#radioLogo{
+
+width:140px;
+border-radius:58px;
+box-shadow:0 6px 30px rgba(0,0,0,.4);
+
+}
+
+.live{
+
+display:flex;
+align-items:center;
+gap:8px;
+padding:6px 16px;
+border-radius:20px;
+font-weight:800;
+background:rgba(255,255,255,0.15);
+border:1px solid rgba(255,255,255,0.4);
+
+}
+
+.live span{
+
+width:10px;
+height:10px;
+background:#fff;
+border-radius:50%;
+animation:pulse 1.2s infinite;
+
+}
+
+@keyframes pulse{
+
+0%{transform:scale(1)}
+50%{transform:scale(1.4)}
+100%{transform:scale(1)}
+
+}
+
+.track{
+text-align:center;
+}
+
+#title{
+font-size:1.1rem;
+font-weight:800;
+}
+
+#artist{
+font-size:0.9rem;
+opacity:.8;
+}
+
+.controls{
+
+display:flex;
+gap:16px;
+
+}
+
+button{
+
+width:56px;
+height:56px;
+border-radius:59px;
+border:none;
+cursor:pointer;
+font-size:1.4rem;
+color:#fff;
+
+background:rgba(255,255,255,0.18);
+border:1px solid rgba(255,255,255,0.4);
+
+transition:all .3s;
+
+}
+
+button:hover{
+
+transform:scale(1.1);
+
+}
+
+button:active{
+
+transform:scale(.9);
+
+}
+
+input[type=range]{
+
+width:90px;
+
+}
+
+.radio-switch{
+
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+max-height:160px;
+overflow-y:auto;
+
+}
+
+.radio-switch button{
+
+width:auto;
+height:auto;
+padding:8px 14px;
+border-radius:16px;
+font-size:.85rem;
+
+}
+
+#volume{
+
+width:120px;
+
+}
+
+form{
+
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:5px;
+
+}
+
+input[type=file]{
+
+color:white;
+
+}
