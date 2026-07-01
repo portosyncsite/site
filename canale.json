@@ -1,0 +1,2923 @@
+[
+{
+        "id": 1,
+        "name": "portoSYNC 1",
+        "theme": "generalist",
+        "description": "portoSYNC 1 este canalul principal al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync1.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 2,
+        "name": "portoSYNC 2",
+        "theme": "generalist",
+        "description": "portoSYNC 2 este canalul secundar al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 3,
+        "name": "portoSYNC 3",
+        "theme": "generalist",
+        "description": "portoSYNC 3 este al treilea canal al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 4,
+        "name": "portoSYNC 4",
+        "theme": "generalist",
+        "description": "portoSYNC 4 este al patrulea canal al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync4.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 5,
+        "name": "portoSYNC 5",
+        "theme": "generalist",
+        "description": "portoSYNC 5 este al cincilea canal al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync5.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 6,
+        "name": "portoSYNC +",
+        "theme": "generalist",
+        "description": "portoSYNC + este canalul exclusiv al streamurilor fără watermark și al recomandărilor din platforma portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 7,
+        "name": "Aservo 1",
+        "theme": "generalist",
+        "description": "Aservo 1 este canalul principal al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo1.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 8,
+        "name": "Aservo 2",
+        "theme": "generalist",
+        "description": "Aservo 2 este canalul secundar al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 9,
+        "name": "Aservo 3",
+        "theme": "generalist",
+        "description": "Aservo 3 este al treilea canal al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 10,
+        "name": "Aservo 4",
+        "theme": "generalist",
+        "description": "Aservo 4 este al patrulea canal al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo4.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 11,
+        "name": "Aservo 5",
+        "theme": "generalist",
+        "description": "Aservo 5 este al cincilea canal al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo5.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 12,
+        "name": "Aservo +",
+        "theme": "generalist",
+        "description": "Aservo + este canalul exclusiv streamurilor fără watermark și al recomandărilor din platforma Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo.m3u8",
+        "type": "video"
+    },
+        {
+        "id": 13,
+        "name": "Bytey 1",
+        "theme": "generalist",
+        "description": "Bytey 1",
+        "streamUrl": "https://media.helloether.co/hls/media/bytey1.m3u8",
+        "type": "video"
+    },
+        {
+        "id": 14,
+        "name": "Bytey 2",
+        "theme": "generalist",
+        "description": "Bytey 2",
+        "streamUrl": "https://media.helloether.co/hls/media/bytey2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 15,
+        "name": "Bytey 3",
+        "theme": "generalist",
+        "description": "Bytey 3",
+        "streamUrl": "https://media.helloether.co/hls/media/bytey3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 16,
+        "name": "Ade Plus",
+        "theme": "generalist",
+        "description": "Ade Plus este canalul principal al Ade Media, fiind un post generalist.",
+        "streamUrl": "https://media.helloether.co/hls/media/adeplus.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 17,
+        "name": "Ade Max",
+        "theme": "generalist",
+        "description": "Ade Max este canalul secundar al Ade Media, fiind un post generalist.",
+        "streamUrl": "https://media.helloether.co/hls/media/ademax.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 18,
+        "name": "T1",
+        "theme": "generalist",
+        "description": "T1",
+        "streamUrl": "https://media.helloether.co/hls/media/tone.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 19,
+        "name": "X1",
+        "theme": "generalist",
+        "description": "X1 este un canal generalist care oferă emisiuni variate; acesta aparține de XMEDIA.",
+        "streamUrl": "https://media.helloether.co/hls/media/X1_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 20,
+        "name": "X2",
+        "theme": "generalist",
+        "description": "X2 este un canal generalist care oferă emisiuni variate; acesta aparține de XMEDIA.",
+        "streamUrl": "https://media.helloether.co/hls/media/X2_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 21,
+        "name": "ATVCTV",
+        "theme": "generalist",
+        "description": "ATVCTV este un canal care vă oferă muzică, jocuri și talk-show-uri, deținut de un membru al XMEDIA.",
+        "streamUrl": "https://media.helloether.co/hls/media/ATVCTV_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 22,
+        "name": "Altus Live",
+        "theme": "generalist",
+        "streamUrl": "https://media.helloether.co/hls/media/ALive.m3u8",
+        "type": "video",
+        "description": "Altus Live"
+    },
+    {
+        "id": 23,
+        "name": "ANT TV",
+        "theme": "generalist",
+        "description": "ANT TV este canalul generalist al ANT SAT MEDIA, difuzând emisiuni moderne și clasice, dar și videoclipuri și emisiuni muzicale diverse.",
+        "streamUrl": "https://media.helloether.co/hls/media/anttv.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 24,
+        "name": "ovou TV",
+        "theme": "generalist",
+        "description": "ovou TV",
+        "streamUrl": "https://media.helloether.co/hls/media/ovou.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 25,
+        "name": "Anoide TV",
+        "theme": "generalist",
+        "streamUrl": "https://media.helloether.co/hls/media/anoidetv.m3u8",
+        "type": "video",
+        "description": "Anoide TV"
+    },
+    {
+        "id": 26,
+        "name": "NRJ TV",
+        "theme": "generalist",
+        "streamUrl": "https://media.helloether.co/hls/media/nrjtv.m3u8",
+        "type": "video",
+        "description": "NRJ TV"
+    },
+    {
+        "id": 27,
+        "name": "Nupten TV",
+        "theme": "generalist",
+        "description": "Nupten TV",
+        "streamUrl": "https://media.helloether.co/hls/media/nupten.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 28,
+        "name": "Nupten 2",
+        "theme": "generalist",
+        "description": "Nupten 2",
+        "streamUrl": "https://media.helloether.co/hls/media/nupten2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 29,
+        "name": "TV Univers",
+        "theme": "generalist",
+        "description": "TV Univers",
+        "streamUrl": "https://media.helloether.co/hls/media/tvunivers.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 30,
+        "name": "Broadcast România",
+        "theme": "generalist",
+        "description": "Broadcast România este postul tău favorit cu emisiuni.",
+        "streamUrl": "https://media.helloether.co/hls/media/broadcastro.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 31,
+        "name": "Dolce INFO",
+        "theme": "generalist",
+        "description": "Dolce INFO este canalul exclusiv recomandărilor de pe platforma Dolce.",
+        "streamUrl": "https://media.helloether.co/hls/media/dolceinfo.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 32,
+        "name": "TVR 1",
+        "theme": "generalist",
+        "streamUrl": "https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/chunklist_b5160000.m3u8",
+        "type": "video",
+        "description": "TVR 1"
+    },
+    {
+        "id": 33,
+        "name": "TVR 2",
+        "theme": "generalist",
+        "streamUrl": "https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/chunklist_b5160000.m3u8",
+        "type": "video",
+        "description": "TVR 2"
+    },
+    {
+        "id": 34,
+        "name": "TVR 3",
+        "theme": "generalist",
+        "streamUrl": "https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist_b5160000.m3u8",
+        "type": "video",
+        "description": "TVR 3"
+    },
+    {
+        "id": 35,
+        "name": "Quantum TV",
+        "theme": "generalist, REGIONAL",
+        "description": "Quantum TV",
+        "streamUrl": "https://vs2129.vcdn.biz/b9498cf36318a1c4714b95106ea96715_megogo/live/hls/b/700_2490_4000/u_sid/0/o/190218421/rsid/9ee35012-d9e7-4d7c-9617-2b14cf6c75cf/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid3120629020821282537-b2490000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 36,
+        "name": "Kanal D",
+        "theme": "generalist",
+        "description": "Kanal D este un post de televiziune generalist din România, lansat în 2007, parte a grupului Doğan Media.",
+        "streamUrl": "https://stream1.kanald.ro/iphone/knd-live.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 37,
+        "name": "Kanal D 2",
+        "theme": "generalist",
+        "description": "Kanal D 2 este un post de televiziune generalist din România, parte a Doğan Media International, care oferă seriale, divertisment, știri și producții originale pentru un public modern și divers.",
+        "streamUrl": "https://vs2144.vcdn.biz/d65e231d77340fe57b68edd4d054719f_megogo/live/hls/b/700_2490_4000/u_sid/0/o/187087751/rsid/0749ee37-b40d-4c37-b4df-16ae5207efbe/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/85.120.23.30*asn/u_srvc/109126/u_did/web_BEhZ0LZLGuQ455jKFFdnE2OFhwWp4SYK/type.live/chunklist-sid2139031428555962140-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 38,
+        "name": "A7 TV",
+        "theme": "generalist",
+        "description": "A7 TV este un post românesc care oferă emisiuni de infotainment, cultură, sănătate și povești inspiraționale.",
+        "streamUrl": "https://a7tvlive.ro/A7TV/A7TV/chunklist_w1415376641.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 39,
+        "name": "Metropola TV",
+        "theme": "generalist",
+        "description": "Metropola TV este un post de televiziune generalist din România, cu programe de actualitate, divertisment, cultură și informații pentru publicul larg.",
+        "streamUrl": "https://vs2123.vcdn.biz/8672d2396feb0fe5375adb1c663351d9_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183160901/rsid/b95c6b15-3ff2-4eda-8b5b-0aaa995cd2db/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid6732273133005367083-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 40,
+        "name": "Moldova TV",
+        "theme": "generalist",
+        "description": "Moldova TV este un post de televiziune regional generalist care difuzează programe variate – știri locale și naționale, emisiuni de actualitate, divertisment și producții culturale dedicate publicului din zona Moldovei.",
+        "streamUrl": "https://vs2143.vcdn.biz/00c0dba6e4d60f8ec9fe4fe6f730cac3_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183161681/rsid/23428a5f-6dd2-40aa-9a41-24cc6edf6eca/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.0.211*asn/u_srvc/109126/u_did/web_Fbd4uoOcapXzIlVsk39SPOHHC6W1af9x/type.live/chunklist-sid5587545699481071726-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 41,
+        "name": "M+",
+        "theme": "generalist",
+        "description": "M+ este un canal generalist modern care aduce publicului o combinație de știri, divertisment, filme și emisiuni tematice, cu accent pe actualitatea din Moldova și pe evenimentele de interes național.",
+        "streamUrl": "https://vs2127.vcdn.biz/93acc39b10cd1f5ff093cfca8c70de99_megogo/live/hls/b/4000/u_sid/0/o/183727821/rsid/a5c033db-2f7b-49fc-b497-333ed5755468/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/79.115.2.62*asn/u_srvc/109126/u_did/web_qwBXoFg4zXpoDGilVx0tVKH7ptdHrZQp/type.live/chunklist-sid8454626491523089830-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 42,
+        "name": "Pulse INTERACTIV",
+        "theme": "interactiv, generalist",
+        "description": "Pulse INTERACTIV este canalul interactiv al XMEDIA.",
+        "streamUrl": "https://media.helloether.co/hls/media/PulseINTERACTIV_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 43,
+        "name": "Ade Exclusive",
+        "theme": "clean feed, generalist",
+        "description": "Ade Exclusive este postul generalist al Ade Media care vă aduce clean feed (fără logo) pentru posturile acestuia.",
+        "streamUrl": "https://media.helloether.co/hls/media/adeexclusive.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 44,
+        "name": "XMULTICHANNEL",
+        "theme": "clean feed, generalist",
+        "description": "XMULTICHANNEL este un canal feed exclusiv pentru distribuirea programelor XMEDIA.",
+        "streamUrl": "https://media.helloether.co/hls/media/XMULTICHANNEL_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 45,
+        "name": "portoSYNC NEWS",
+        "theme": "știri",
+        "description": "portoSYNC NEWS este canalul de știri al portoSYNC, oferind cele mai recente informații din țară și din lume, știri în timp real și actualizări din toate domeniile importante.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncnews.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 46,
+        "name": "Aservo NEWS",
+        "theme": "știri",
+        "description": "Aservo NEWS este canalul de știri al rețelei Aservo, aducând informații rapide, reportaje exclusive și actualizări de interes general.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservonews.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 47,
+        "name": "portoSYNC INFO",
+        "theme": "știri, INFORMATIV",
+        "description": "portoSYNC INFO este canalul informativ al portoSYNC, dedicat transmiterii de știri de ultimă oră, reportaje și analize obiective.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncinfo.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 48,
+        "name": "portoSYNC INFO +",
+        "theme": "știri",
+        "description": "portoSYNC INFO +",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncinfoplus.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 49,
+        "name": "XINFOCHANNEL",
+        "theme": "știri, INFORMATIV",
+        "description": "XINFOCHANNEL este canalul informativ al XMEDIA, dedicat transmiterii de știri de ultimă oră, reportaje și analize obiective.",
+        "streamUrl": "https://media.helloether.co/hls/media/XINFOCHANNEL_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 50,
+        "name": "Pulse INFO",
+        "theme": "știri, INFORMATIV",
+        "description": "Pulse INFO",
+        "streamUrl": "https://media.helloether.co/hls/media/PulseINFO_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 51,
+        "name": "RIZEA TV",
+        "theme": "știri",
+        "streamUrl": "https://media.helloether.co/hls/media/rizea.m3u8",
+        "type": "video",
+        "description": "RIZEA TV"
+    },
+    {
+        "id": 52,
+        "name": "TVR INFO",
+        "theme": "știri",
+        "streamUrl": "https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8",
+        "type": "video",
+        "description": "TVR INFO"
+    },
+    {
+        "id": 53,
+        "name": "Antena 3 CNN",
+        "theme": "știri",
+        "description": "Antena 3 CNN este un canal de știri care oferă informații, analize și dezbateri în timp real.",
+        "streamUrl": "https://live3vox.antenaplay.ro/a3free/a3free.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 54,
+        "name": "România TV",
+        "theme": "știri",
+        "description": "România TV este un canal de televiziune de știri din România, care oferă informații, dezbateri, anchete și reportaje despre cele mai importante evenimente politice, sociale și economice.",
+        "streamUrl": "https://vs2143.vcdn.biz/992759fb7044cecdb8ad93b0da093d97_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183396781/rsid/0fe83199-0698-4e9b-914f-9bf38a0f304f/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.3.22*asn/u_srvc/109126/u_did/web_bjgKo07FlvX9uVQIBgavzt340MQrh0xY/type.live/chunklist-sid7459644078260852792-b2490000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 55,
+        "name": "Realitatea Plus",
+        "theme": "știri",
+        "description": "Realitatea Plus este unul dintre cele mai cunoscute canale de știri din România, oferind analize, talk-show-uri și transmisiuni live din centrul evenimentelor de interes național și internațional.",
+        "streamUrl": "https://vs2130.vcdn.biz/c2eebe8c6882d3637c92f5742a81efc0_megogo/live/hls/b/4000/u_sid/0/o/183160851/rsid/235cb34a-bc39-435a-8411-2e5fa8c629d8/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/79.115.2.62*asn/u_srvc/109126/u_did/web_qwBXoFg4zXpoDGilVx0tVKH7ptdHrZQp/type.live/chunklist-sid8593103525486886152-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 56,
+        "name": "Aleph News",
+        "theme": "știri",
+        "description": "Aleph News este un post de televiziune modern, cu un format inovator de știri și reportaje. Canalul oferă o perspectivă inteligentă și echilibrată asupra actualității din România și din lume.",
+        "streamUrl": "https://streamb.m.ro/Aleph/ngrp:Alephnew2.stream_all/chunklist_b5128000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 57,
+        "name": "Aleph Business",
+        "theme": "știri",
+        "description": "Aleph Business",
+        "streamUrl": "https://streamw.m.ro/Aleph/ngrp:Alephbiz.stream_all/chunklist_b1398304.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 58,
+        "name": "Euronews România",
+        "theme": "știri",
+        "description": "Euronews România este versiunea locală a celebrului canal european de știri, oferind informații verificate, analize și perspective independente asupra evenimentelor din țară și din lume.",
+        "streamUrl": "https://vs2132.vcdn.biz/27278cb9bde53514c22a6935fa937624_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183395381/rsid/0591dc00-86e0-43ba-b88d-430036eebdf8/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/79.115.2.62*asn/u_srvc/109126/u_did/web_qwBXoFg4zXpoDGilVx0tVKH7ptdHrZQp/type.live/chunklist-sid2659486788623398724-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 59,
+        "name": "NCN",
+        "theme": "știri",
+        "description": "NCN este un canal de știri care oferă informații și reportaje actualizate din România și din lume.",
+        "streamUrl": "https://vs2128.vcdn.biz/3a0e8f83f40f62d55a05d5150eb62d43_megogo/live/hls/b/700_2490/u_sid/0/o/183727851/rsid/98ba8001-ac14-41ba-aca1-cbd1f343997a/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.0.211*asn/u_srvc/109126/u_did/web_Fbd4uoOcapXzIlVsk39SPOHHC6W1af9x/type.live/chunklist-sid4896787406639666928-b2490000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 60,
+        "name": "Republika News",
+        "theme": "știri",
+        "description": "Republika News este un canal de știri care prezintă informații de actualitate și analize independente.",
+        "streamUrl": "https://v1.mediastreaming.ro/stream/hls/ploiestitv.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 61,
+        "name": "portoSYNC SPORT 1",
+        "theme": "sport",
+        "description": "portoSYNC SPORT 1 este canalul dedicat pasionaților de sport, oferind transmisiuni live din competiții naționale și internaționale, analize și rezumate din lumea sportului.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncsport.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 62,
+        "name": "portoSYNC SPORT 2",
+        "theme": "sport",
+        "description": "portoSYNC SPORT 2 completează oferta sportivă a portoSYNC, difuzând meciuri, competiții și emisiuni dedicate performanței și mișcării sportive.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncsport2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 63,
+        "name": "portoSYNC SPORT 3",
+        "theme": "sport",
+        "description": "portoSYNC SPORT 3 este canalul sportiv al portoSYNC, difuzând competiții, știri sportive și emisiuni dedicate celor mai populare discipline din România și din lume.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncsport3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 64,
+        "name": "Aservo SPORT",
+        "theme": "sport",
+        "description": "Aservo SPORT este canalul sportiv al rețelei Aservo, oferind transmisiuni live din competiții naționale și internaționale, precum și analize dedicate fanilor sportului.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservosport.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 65,
+        "name": "Aservo SPORT 2",
+        "theme": "sport",
+        "description": "Aservo SPORT 2 completează grila sportivă Aservo, difuzând competiții, rezumate și emisiuni de analiză pentru pasionații de sport.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservosport2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 66,
+        "name": "Aservo SPORT 3",
+        "theme": "sport",
+        "description": "Aservo SPORT 3 este canalul sportiv al Aservo, difuzând competiții, știri sportive și emisiuni dedicate celor mai populare discipline din România și din lume.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservosport3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 67,
+        "name": "Bytey SPORT 1",
+        "theme": "sport",
+        "description": "Bytey SPORT 1",
+        "streamUrl": "https://media.helloether.co/hls/media/byteysport1.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 68,
+        "name": "Bytey SPORT 2",
+        "theme": "sport",
+        "description": "Bytey SPORT 2",
+        "streamUrl": "https://media.helloether.co/hls/media/byteysport2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 69,
+        "name": "XSPORT 1",
+        "theme": "sport",
+        "description": "XSPORT 1 este canalul sportiv al XMEDIA, difuzând competiții, știri sportive și emisiuni dedicate celor mai populare discipline din România și din lume.",
+        "streamUrl": "https://media.helloether.co/hls/media/XSPORT1_HD.m3u8",
+        "type": "video"
+    },
+    {
+       "id": 70,
+        "name": "Dolce Sport 1",
+        "theme": "sport",
+        "description": "Dolce Sport 1 este principalul canal sportiv al rețelei Dolce, difuzând cele mai importante competiții, meciuri și emisiuni dedicate fanilor sportului.",
+        "streamUrl": "https://media.helloether.co/hls/media/dolcesport1.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 71,
+        "name": "Dolce Sport 2",
+        "theme": "sport",
+        "description": "Dolce Sport 2 extinde oferta sportivă a rețelei Dolce, aducând transmisiuni live și analize detaliate ale competițiilor internaționale.",
+        "streamUrl": "https://media.helloether.co/hls/media/dolcesport2.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 72,
+        "name": "Dolce Sport 3",
+        "theme": "sport",
+        "description": "Dolce Sport 3 este un canal dedicat sporturilor de echipă și evenimentelor speciale, parte a portofoliului Dolce Media.",
+        "streamUrl": "https://media.helloether.co/hls/media/dolcesport3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 73,
+        "name": "Dolce Sport 4",
+        "theme": "sport",
+        "description": "Dolce Sport 4 difuzează competiții, rezumate și emisiuni dedicate performanței sportive, făcând parte din rețeaua Dolce.",
+        "streamUrl": "https://media.helloether.co/hls/media/dolcesport4.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 74,
+        "name": "Dolce Sport 5",
+        "theme": "sport",
+        "description": "Dolce Sport 5 încheie seria canalelor sportive Dolce, oferind transmisiuni exclusive, documentare și interviuri din lumea sportului.",
+        "streamUrl": "https://media.helloether.co/hls/media/dolcesport5.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 75,
+        "name": "Dolce Sport 6",
+        "theme": "sport",
+        "description": "Dolce Sport 6 este canalul dedicat sporturilor și competițiilor internaționale și naționale, oferind transmisiuni live, analize și emisiuni pentru pasionații de sport.",
+        "streamUrl": "https://media.helloether.co/hls/media/dolcesport6.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 76,
+        "name": "Nupten Sport",
+        "theme": "sport",
+        "description": "Nupten Sport",
+        "streamUrl": "https://media.helloether.co/hls/media/nuptensport.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 77,
+        "name": "TVR SPORT",
+        "theme": "sport",
+        "streamUrl": "https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8",
+        "type": "video",
+        "description": "TVR SPORT"
+    },
+    {
+        "id": 78,
+        "name": "portoSYNC FILM",
+        "theme": "filme",
+        "description": "portoSYNC FILM difuzează filme și seriale pentru toate gusturile, oferind o selecție diversă de producții naționale și internaționale.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncfilm.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 79,
+        "name": "portoSYNC FILM +",
+        "theme": "filme",
+        "description": "portoSYNC FILM + difuzează filme și seriale pentru toate gusturile, oferind o selecție diversă de producții naționale și internaționale.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncfilmplus.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 80,
+        "name": "Aservo FILM",
+        "theme": "filme, seriale",
+        "description": "Aservo FILM este canalul de filme și seriale al rețelei Aservo, oferind producții diverse și de calitate pentru toate vârstele.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservofilm.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 81,
+        "name": "Aservo FILM Plus",
+        "theme": "filme, seriale",
+        "description": "Aservo FILM Plus este canalul de filme și seriale al rețelei Aservo, oferind producții diverse și de calitate pentru toate vârstele.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservofilmplus.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 82,
+        "name": "FilmArt",
+        "theme": "filme, seriale",
+        "description": "FilmArt",
+        "streamUrl": "https://media.helloether.co/hls/media/filmart.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 83,
+        "name": "Nupten Cinema",
+        "theme": "filme, seriale",
+        "description": "Nupten Cinema",
+        "streamUrl": "https://media.helloether.co/hls/media/nuptencinema.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 84,
+        "name": "Bollywood Clasic",
+        "theme": "filme, seriale",
+        "description": "Bollywood Clasic difuzează filme indiene clasice, oferind spectatorilor povești romantice, muzică și dansuri specifice cinematografiei Bollywood.",
+        "streamUrl": "https://vs2124.vcdn.biz/1a22a8a2b342282a54b6be3982c3dcdf_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183395271/rsid/a6a0cb04-56a3-4466-9213-1b36dad46dff/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/85.120.23.30*asn/u_srvc/109126/u_did/web_BEhZ0LZLGuQ455jKFFdnE2OFhwWp4SYK/type.live/chunklist-sid2273850557088803109-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 85,
+        "name": "portoSYNC MUSIC",
+        "theme": "muzical",
+        "description": "portoSYNC MUSIC este canalul de muzică al portoSYNC, difuzând hituri contemporane, videoclipuri și emisiuni muzicale variate.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncmusic.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 86,
+        "name": "portoSYNC MUSIC 4K",
+        "theme": "muzical, 4k",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncmusic4k.m3u8",
+        "type": "video",
+        "description": "portoSYNC 4K"
+    },
+    {
+        "id": 87,
+        "name": "portoSYNC LOVE",
+        "theme": "muzical",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsynclove.m3u8",
+        "type": "video",
+        "description": "portoSYNC LOVE"
+    },
+    {
+        "id": 88,
+        "name": "portoSYNC MANELE",
+        "theme": "muzical, manele",
+        "description": "portoSYNC MANELE este canalul dedicat muzicii de tip manele, oferind hituri populare și emisiuni dedicate acestui gen muzical.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncmanele.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 89,
+        "name": "portoSYNC DANCE",
+        "theme": "muzical",
+        "description": "portoSYNC DANCE difuzează muzică de dans, oferind publicului o selecție variată de melodii ritmate.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncdance.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 90,
+        "name": "portoSYNC ROCK",
+        "theme": "muzical",
+        "description": "portoSYNC ROCK difuzează muzică rock reinterpretat, pentru iubitorii genurilor muzicale energice și tradiționale.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncrock.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 91,
+        "name": "portoSYNC FOLCLOR",
+        "theme": "muzical, folclor",
+        "description": "portoSYNC FOLCLOR este canalul de muzică populară, difuzând folclor autentic din toate regiunile României.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncfolclor.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 92,
+        "name": "portoSYNC RETRO",
+        "theme": "muzical, retro",
+        "description": "portoSYNC RETRO difuzează muzică retro din anii 2000-2010, oferind nostalgie și hituri de top pentru fanii genului.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncretro.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 93,
+        "name": "Aservo MUSIC",
+        "theme": "muzical",
+        "description": "Aservo MUSIC este canalul muzical al rețelei Aservo, difuzând muzică variată, videoclipuri și programe dedicate pasionaților de muzică.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservomusic.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 94,
+        "name": "Aservo MANELE",
+        "theme": "muzical, manele",
+        "description": "Aservo MANELE este canalul dedicat muzicii de tip manele al rețelei Aservo, oferind hituri populare și emisiuni tematice.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservomanele.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 95,
+        "name": "Aservo DANCE",
+        "theme": "muzical",
+        "description": "Aservo DANCE difuzează muzică de dans, oferind publicului o selecție variată de melodii ritmate.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservodance.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 96,
+        "name": "Aservo ROCK",
+        "theme": "muzical",
+        "description": "Aservo ROCK difuzează muzică rock reinterpretat, pentru iubitorii genurilor muzicale energice și tradiționale.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservorock.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 97,
+        "name": "Aservo FOLCLOR",
+        "theme": "muzical, folclor",
+        "description": "Aservo FOLCLOR difuzează muzică folclorică autentică și programe dedicate tradițiilor românești.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservofolclor.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 98,
+        "name": "Aservo RETRO",
+        "theme": "muzical, retro",
+        "description": "Aservo RETRO difuzează hituri retro din anii 2000-2010, aducând muzică clasică pentru iubitorii genului.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservoretro.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 99,
+        "name": "Bytey FOLCLOR",
+        "theme": "muzical, folclor",
+        "description": "Bytey FOLCLOR difuzează muzică folclorică autentică și programe dedicate tradițiilor românești.",
+        "streamUrl": "https://media.helloether.co/hls/media/byteyfolclor.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 100,
+        "name": "Bytey RETRO",
+        "theme": "muzical, retro",
+        "description": "Bytey RETRO difuzează hituri retro din anii 2000-2010, aducând muzică clasică pentru iubitorii genului.",
+        "streamUrl": "https://media.helloether.co/hls/media/byteyretro.m3u8",
+        "type": "video"
+    },
+{
+        "id": 101,
+        "name": "Heta",
+        "theme": "muzical",
+        "description": "Heta",
+        "streamUrl": "https://media.helloether.co/hls/media/heta.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 102,
+        "name": "XMUZTV",
+        "theme": "muzical",
+        "streamUrl": "https://media.helloether.co/hls/media/XMUZTV_HD.m3u8",
+        "type": "video",
+        "description": "XMUZTV"
+    },
+{
+        "id": 103,
+        "name": "INTER",
+        "theme": "muzical",
+        "description": "INTER este canalul de muzică, deținut de cldnef2 Communications Infrastructure.",
+        "streamUrl": "https://media.helloether.co/hls/media/inter.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 104,
+        "name": "Retro TV",
+        "theme": "muzical",
+        "streamUrl": "https://media.helloether.co/hls/media/retrotv.m3u8",
+        "type": "video",
+        "description": "Retro TV"
+    },
+    {
+        "id": 105,
+        "name": "Aroma TV",
+        "theme": "muzical",
+        "description": "Aroma TV",
+        "streamUrl": "https://media.helloether.co/hls/media/aromatv.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 106,
+        "name": "Broadcast Music",
+        "theme": "muzical",
+        "description": "Broadcast Music difuzează muzică variată, de la hituri internaționale la piese românești populare, pentru toate gusturile.",
+        "streamUrl": "https://media.helloether.co/hls/media/broadcastmusic.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 107,
+        "name": "Epilisium TV",
+        "theme": "muzical",
+        "description": "Epilisium TV",
+        "streamUrl": "https://media.helloether.co/hls/media/Epilisium_HD.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 108,
+        "name": "Mynele TV",
+        "theme": "muzical, manele",
+        "description": "Mynele TV difuzează muzică manele și hituri populare, aducând cele mai noi lansări și videoclipuri de petrecere.",
+        "streamUrl": "https://media.helloether.co/hls/media/myneletv.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 109,
+        "name": "Clubparty",
+        "theme": "muzical",
+        "description": "Clubparty difuzează muzică modernă și mixuri energice pentru iubitorii de petreceri și distracție.",
+        "streamUrl": "https://media.helloether.co/hls/media/clubparty.m3u8",
+        "type": "video"
+    },
+   {
+        "id": 110,
+        "name": "TVR FOLCLOR",
+        "theme": "muzical, folclor",
+        "description": "TVR FOLCLOR",
+        "streamUrl": "https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 111,
+        "name": "Emi TV",
+        "theme": "muzical, folclor",
+        "description": "Emi TV",
+        "streamUrl": "https://vs2143.vcdn.biz/fe12e00dc6d1bae0b29c78bc812a1d2b_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183162871/rsid/b2cdd555-2964-42ad-86d0-e12f5e1d9c42/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid5936342843843361125-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 112,
+        "name": "Kiss TV",
+        "theme": "muzical",
+        "description": "Kiss TV difuzează hituri internaționale și românești, videoclipuri și emisiuni dedicate tineretului.",
+        "streamUrl": "https://vs2122.vcdn.biz/ec1301fe86928dc8e74c89192df20f5f_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183396811/rsid/bc585a14-9fa0-4ce5-b74b-095d46bb4313/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.0.211*asn/u_srvc/109126/u_did/web_Fbd4uoOcapXzIlVsk39SPOHHC6W1af9x/type.live/chunklist-sid8639905324550229906-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 113,
+        "name": "Magic TV",
+        "theme": "muzical",
+        "description": "Magic TV difuzează muzică variată și videoclipuri pentru toate gusturile.",
+        "streamUrl": "https://vs2130.vcdn.biz/519117ad6baafb3f05925ad3d047c611_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183396901/rsid/020de80e-1a1f-4f18-9350-49c13f55229a/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/85.120.23.30*asn/u_srvc/109126/u_did/web_BEhZ0LZLGuQ455jKFFdnE2OFhwWp4SYK/type.live/chunklist-sid7727863863473949822-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 114,
+        "name": "Rock TV",
+        "theme": "muzical",
+        "description": "Rock TV difuzează muzică rock, videoclipuri și emisiuni dedicate fanilor genului.",
+        "streamUrl": "https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 115,
+        "name": "Taraf TV",
+        "theme": "muzical, manele",
+        "description": "Taraf TV difuzează manele și muzică de petrecere, videoclipuri, concerte și emisiuni cu artiști cunoscuți, fiind un canal de referință în acest gen muzical.",
+        "streamUrl": "https://vs2129.vcdn.biz/8f5510cc44ed9b90ebcceab9f9913777_megogo/live/hls/b/4000/u_sid/0/o/183399001/rsid/e8190161-ef37-4796-99ea-dfa8a167077b/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/79.115.4.61*asn/u_srvc/109126/u_did/web_VJqt6ooaCFcBRJ8XlHEQpr2VJ05YJTGs/type.live/chunklist-sid3427758311381104453-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 116,
+        "name": "Tequila Music TV Manele",
+        "theme": "muzical, manele",
+        "description": "Tequila Music TV Manele",
+        "streamUrl": "https://stream.radiotequila.ro/tmp_hls/stream/index.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 117,
+        "name": "Mooz Dance",
+        "theme": "muzical",
+        "description": "Mooz Dance difuzează muzică dance și electronică, mixuri și hituri internaționale pentru iubitorii ritmurilor energice.",
+        "streamUrl": "https://vs2133.vcdn.biz/5deb15906a3765d7a7eb253282893e54_megogo/live/hls/b/700_2500/u_sid/0/o/183161921/rsid/3c5d107e-21bc-4133-92f6-9a495fbbaf5c/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/85.120.23.30*asn/u_srvc/109126/u_did/web_Kh0G4z2aMpB1VZVZpxcd5gi2gcdQtztX/type.live/chunklist-sid6329562133337448634-b2500000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 118,
+        "name": "Atomic TV",
+        "theme": "muzical",
+        "description": "Atomic TV difuzează muzică variată, de la hituri moderne la clasice, cu emisiuni și videoclipuri pentru pasionații de muzică.",
+        "streamUrl": "https://atomic.streamnet.ro/atomictv.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 119,
+        "name": "Atomic Academy",
+        "theme": "muzical",
+        "description": "Atomic Academy difuzează muzică, programe și tutoriale muzicale pentru tineri și pasionați.",
+        "streamUrl": "https://atomic.streamnet.ro/academia.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 120,
+        "name": "Party Mix",
+        "theme": "muzical",
+        "description": "Party Mix",
+        "streamUrl": "https://vs2144.vcdn.biz/da342997d2dae4884f6ff62e56f82335_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183396881/rsid/72e6efcb-9868-4287-9d3f-75fddfece257/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid5686239233583732056-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 121,
+        "name": "Disco Mix",
+        "theme": "muzical",
+        "description": "Disco Mix",
+        "streamUrl": "https://vs2129.vcdn.biz/b62da39282a65152964032499fb8ac09_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183395021/rsid/eae0ed4d-1c29-4c7c-9533-7f6ef7b0c7c4/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid2547962106121559704-b4000000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 122,
+        "name": "Orizont TV",
+        "theme": "muzical, folclor",
+        "description": "Orizont TV",
+        "streamUrl": "https://vs2141.vcdn.biz/79d368a545a27d292442f2f54ced0279_megogo/live/hls/b/700_2490/u_sid/0/o/185448691/rsid/5f24dd93-870d-49d7-af75-a8aac08bf12e/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid2940822930099067929-b2490000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 123,
+        "name": "Balada TV",
+        "theme": "muzical",
+        "description": "Balada TV",
+        "streamUrl": "https://vs2144.vcdn.biz/3e776524ed5b85594757143388132f25_megogo/live/hls/b/700_2490/u_sid/0/o/190219471/rsid/222b2cb2-b4a5-464e-afa5-4fa7dddb1014/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid9064176517503131931-b2490000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 124,
+        "name": "Rapsodia TV",
+        "theme": "muzical",
+        "description": "Rapsodia TV",
+        "streamUrl": "https://vs2124.vcdn.biz/d6b77e2e1e32103b9b5adc8a9391e1eb_megogo/live/hls/b/700_2490/u_sid/0/o/183161911/rsid/efc63396-4608-448e-b015-c1f6280c12cb/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid8071993250473265560-b2490000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 125,
+        "name": "portoSYNC TOONS",
+        "theme": "copii",
+        "description": "portoSYNC TOONS difuzează desene animate pentru copii mari, oferind divertisment și animații educative marca portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsynctoons.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 126,
+        "name": "portoSYNC KIDS",
+        "theme": "copii",
+        "description": "portoSYNC KIDS oferă desene animate pentru copii, programe distractive și educative marca portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsynckids.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 127,
+        "name": "portoSYNC TEEN",
+        "theme": "copii",
+        "description": "portoSYNC TEEN difuzează animații și seriale pentru adolescenți, cu conținut amuzant și educativ marca portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncteen.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 128,
+        "name": "portoSYNC JUNIOR",
+        "theme": "copii",
+        "description": "portoSYNC JUNIOR oferă desene animate și programe pentru cei mai mici, fiind un canal dedicat copiilor marca portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncjunior.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 129,
+        "name": "Aservo TOONS",
+        "theme": "copii",
+        "description": "Aservo TOONS oferă desene animate pentru copii mari, cu programe variate și distractive, aparținând de Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservotoons.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 130,
+        "name": "Aservo KIDS",
+        "theme": "copii",
+        "description": "Aservo KIDS difuzează desene animate pentru copii, combinând divertisment și învățare, fiind parte din rețeaua Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservokids/index.m3u8",
+        "type": "video"
+    },
+{
+    "id": 131,
+    "name": "Aservo TEEN",
+    "theme": "copii",
+    "description": "Aservo TEEN este canalul de desene și programe pentru adolescenți, oferind divertisment potrivit vârstei, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservoteen.m3u8",
+    "type": "video"
+},
+{
+    "id": 132,
+    "name": "Aservo JUNIOR",
+    "theme": "copii",
+    "description": "Aservo JUNIOR este canalul de desene și programe educative pentru cei mici, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservojunior.m3u8",
+    "type": "video"
+},
+{
+    "id": 133,
+    "name": "XKIDS",
+    "theme": "copii",
+    "description": "XKIDS difuzează desene animate moderne și clasice, cu umor și aventură, fiind dedicat copiilor de toate vârstele.",
+    "streamUrl": "https://media.helloether.co/hls/media/XKIDS_HD.m3u8",
+    "type": "video"
+},
+{
+    "id": 134,
+    "name": "Tooncast",
+    "theme": "copii",
+    "description": "Tooncast difuzează desene animate clasice și moderne, oferind programe distractive pentru copii, aparținând de Broadcast Media.",
+    "streamUrl": "https://media.helloether.co/hls/media/tooncast.m3u8",
+    "type": "video"
+},
+{
+    "id": 135,
+    "name": "Toonmax",
+    "theme": "copii",
+    "description": "Toonmax",
+    "streamUrl": "https://hls.infinium.top/BanatSyncW0wkw.m3u8",
+    "type": "video"
+},
+{
+    "id": 136,
+    "name": "portoSYNC DOKU",
+    "theme": "documentare",
+    "description": "portoSYNC DOKU oferă documentare variate despre natură, știință și cultură, aparținând de portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncdoku.m3u8",
+    "type": "video"
+},
+{
+    "id": 137,
+    "name": "Aservo DOKU",
+    "theme": "documentare",
+    "description": "Aservo DOKU este canalul de documentare al Aservo, dedicat explorării, științei și culturii.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservodoku.m3u8",
+    "type": "video"
+},
+{
+    "id": 138,
+    "name": "DOKU",
+    "theme": "documentare",
+    "description": "DOKU este un canal de documentare , dedicat explorării, științei și culturii.",
+    "streamUrl": "https://media.helloether.co/hls/media/doku.m3u8",
+    "type": "video"
+},
+{
+    "id": 139,
+    "name": "Ade Documentary",
+    "theme": "documentare",
+    "description": "Ade Documentary prezintă documentare captivante și educative, parte a seriei Ade Media.",
+    "streamUrl": "https://media.helloether.co/hls/media/adedocumentary.m3u8",
+    "type": "video"
+},
+{
+    "id": 140,
+    "name": "portoSYNC DISCOVERY",
+    "theme": "documentare",
+    "description": "portoSYNC DISCOVERY este canalul de explorare și aventură din familia portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncdiscovery.m3u8",
+    "type": "video"
+},
+{
+    "id": 141,
+    "name": "Aservo DISCOVERY",
+    "theme": "documentare",
+    "description": "Aservo DISCOVERY difuzează documentare de explorare și știință, fiind parte a rețelei Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservodiscovery.m3u8",
+    "type": "video"
+},
+{
+    "id": 142,
+    "name": "portoSYNC TRAVEL",
+    "theme": "documentare, călătorii",
+    "description": "portoSYNC TRAVEL difuzează programe și documentare de călătorii pentru întreaga familie.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsynctravel.m3u8",
+    "type": "video"
+},
+{
+    "id": 143,
+    "name": "Aservo TRAVEL",
+    "theme": "documentare, călătorii",
+    "description": "Aservo TRAVEL difuzează programe și documentare de călătorii, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservotravel.m3u8",
+    "type": "video"
+},
+{
+    "id": 144,
+    "name": "Travel Mix",
+    "theme": "documentare, călătorii",
+    "description": "Travel Mix difuzează programe de călătorii și documentare interesante.",
+    "streamUrl": "https://vs2121.vcdn.biz/9b8e0d6fe69c156bdc2efb8ef714e900_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183804761/rsid/b71b4688-f974-4c48-8dec-dcc5130099fa/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.0.211*asn/u_srvc/109126/u_did/web_Fbd4uoOcapXzIlVsk39SPOHHC6W1af9x/type.live/chunklist-sid2475947016838298623-b4000000.m3u8",
+    "type": "video"
+},
+{
+    "id": 145,
+    "name": "portoSYNC EXTREME",
+    "theme": "documentare, extreme",
+    "description": "portoSYNC EXTREME este canalul dedicat sporturilor extreme și documentarelor de acțiune, din seria portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncextreme.m3u8",
+    "type": "video"
+},
+{
+    "id": 146,
+    "name": "Aservo EXTREME",
+    "theme": "documentare, extreme",
+    "description": "Aservo EXTREME difuzează documentare și programe despre sporturi extreme și aventuri, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservoextreme.m3u8",
+    "type": "video"
+},
+{
+    "id": 147,
+    "name": "portoSYNC NATURE",
+    "theme": "documentare, natură",
+    "description": "portoSYNC NATURE este canalul dedicat documentarelor despre natură și viața sălbatică, parte din portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncnature.m3u8",
+    "type": "video"
+},
+{
+    "id": 148,
+    "name": "portoSYNC NATURE 4K",
+    "theme": "documentare, natură, 4k",
+    "description": "portoSYNC NATURE 4K este canalul dedicat documentarelor despre natură și viața sălbatică, în format 4K, parte din portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncnature4km3u8",
+    "type": "video"
+},
+{
+    "id": 149,
+    "name": "Aservo NATURE",
+    "theme": "documentare, natură",
+    "description": "Aservo NATURE oferă documentare despre natură, ecologie și mediul înconjurător, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservonature.m3u8",
+    "type": "video"
+},
+{
+    "id": 150,
+    "name": "portoSYNC HISTORY",
+    "theme": "documentare, cultural",
+    "description": "portoSYNC HISTORY prezintă evenimente și momente istorice importante, fiind parte din portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsynchistory.m3u8",
+    "type": "video"
+},
+{
+    "id": 151,
+    "name": "Aservo HISTORY",
+    "theme": "documentare, cultural",
+    "description": "Aservo HISTORY este canalul dedicat istoriei și civilizațiilor, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservohistory.m3u8",
+    "type": "video"
+},
+{
+    "id": 152,
+    "name": "portoSYNC EDU",
+    "theme": "documentare, EDUCAȚIONAL",
+    "description": "portoSYNC EDU",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncedu.m3u8",
+    "type": "video"
+},
+{
+    "id": 153,
+    "name": "portoSYNC CULTURAL",
+    "theme": "cultural",
+    "description": "portoSYNC CULTURAL promovează arta, cultura și valorile tradiționale, fiind parte din portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsynccultural.m3u8",
+    "type": "video"
+},
+{
+    "id": 154,
+    "name": "Aservo CULTURAL",
+    "theme": "cultural",
+    "description": "Aservo CULTURAL difuzează emisiuni culturale, artistice și educative, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservocultural.m3u8",
+    "type": "video"
+},
+{
+    "id": 155,
+    "name": "TVR CULTURAL",
+    "theme": "cultural",
+    "description": "TVR CULTURAL promovează arta, cultura și valorile tradiționale, fâcând parte din TVR.",
+    "streamUrl": "https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/playlist.m3u8",
+    "type": "video"
+},
+{
+    "id": 156,
+    "name": "Broadcast Cultural",
+    "theme": "cultural",
+    "description": "Broadcast Cultural este canalul de artă și cultură din portofoliul Broadcast Media.",
+    "streamUrl": "https://media.helloether.co/hls/media/brcultural.m3u8",
+    "type": "video"
+},
+{
+    "id": 157,
+    "name": "portoSYNC ARCHITECTURE",
+    "theme": "arhitectură",
+    "description": "portoSYNC ARCHITECTURE",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncarchitecture.m3u8",
+    "type": "video"
+},
+{
+    "id": 158,
+    "name": "Aservo ARCHITECTURE",
+    "theme": "arhitectură",
+    "description": "Aservo ARCHITECTURE",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncarchitecture.m3u8",
+    "type": "video"
+},
+{
+    "id": 159,
+    "name": "Sens TV",
+    "theme": "arhitectură",
+    "description": "Sens TV",
+    "streamUrl": "https://vs2139.vcdn.biz/2b58917f97a7a45ed14a6a3f4e1df9e5_megogo/live/hls/b/700_2490_4000/u_sid/0/o/185448721/rsid/d061a40b-864b-43ec-a02a-d6efe10bbf8a/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid7362893080418181401-b4000000.m3u8",
+    "type": "video"
+},
+{
+    "id": 160,
+    "name": "portoSYNC AGRO",
+    "theme": "agricol",
+    "description": "portoSYNC AGRO este canalul dedicat agriculturii și mediului rural, parte din portoSYNC.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncagro.m3u8",
+    "type": "video"
+},
+{
+    "id": 161,
+    "name": "Aservo AGRO",
+    "theme": "agricol",
+    "description": "Aservo AGRO difuzează programe despre agricultură, viață rurală și inovație în domeniu, aparținând de Aservo.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservoagro.m3u8",
+    "type": "video"
+},
+{
+    "id": 162,
+    "name": "Agro TV",
+    "theme": "agricol",
+    "description": "Agro TV este postul românesc dedicat agriculturii și mediului rural, oferind știri, analize și emisiuni pentru fermieri.",
+    "streamUrl": "https://agrotv.streamnet.ro/mobile_tv/agrotv.m3u8",
+    "type": "video"
+},
+{
+    "id": 163,
+    "name": "Trinitas TV",
+    "theme": "religios",
+    "description": "Trinitas TV este canalul Patriarhiei Române dedicat credinței, spiritualității și valorilor creștine ortodoxe.",
+    "streamUrl": "https://vs2132.vcdn.biz/bc7b13a3079707f24f15f937a30ec953_megogo/live/hls/b/2490/u_sid/0/o/183161701/rsid/6e0a0469-3a8e-408b-9877-1bc9c0d901c7/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/79.115.4.61*asn/u_srvc/109126/u_did/web_VJqt6ooaCFcBRJ8XlHEQpr2VJ05YJTGs/type.live/chunklist-sid8970145987557396522-b2490000.m3u8",
+    "type": "video"
+},
+{
+    "id": 164,
+    "name": "Alfa Omega TV",
+    "theme": "religios",
+    "description": "Alfa Omega TV este un canal creștin ce promovează valorile morale, familia și credința prin programe inspiraționale.",
+    "streamUrl": "https://aom-live.maghost.ro/aomTV/streams/OOztu5o9Fx6dh9mD1711027803849.m3u8",
+    "type": "video"
+},
+{
+    "id": 165,
+    "name": "Angelus TV",
+    "theme": "religios",
+    "description": "Angelus TV este un canal religios românesc dedicat spiritualității, rugăciunii și reflecției creștine.",
+    "streamUrl": "https://video.angelustv.ro/hls/angelustv.m3u8",
+    "type": "video"
+},
+{
+    "id": 166,
+    "name": "Shop on TV",
+    "theme": "teleshopping",
+    "description": "Shop on TV",
+    "streamUrl": "https://vs2126.vcdn.biz/bae3947e6c004b22944c04feb8c5350d_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183161731/rsid/b684e5ee-3cf5-49a1-b86a-1945dd3570af/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/79.115.2.168*asn/u_srvc/109126/u_did/web_DAMMBeC63nxGnAVUxhNfrRs1RUQk8zMg/type.live/chunklist-sid8226348441878368318-b4000000.m3u8",
+    "type": "video"
+},
+{
+    "id": 167,
+    "name": "portoSYNC INTERNAȚIONAL",
+    "theme": "internațional, generalist",
+    "description": "portoSYNC INTERNAȚIONAL este canalul internațional al portoSYNC, difuzând programe variate pentru publicul din afara României.",
+    "streamUrl": "https://media.helloether.co/hls/media/prtsyncint.m3u8",
+    "type": "video"
+},
+{
+    "id": 168,
+    "name": "Aservo INTERNAȚIONAL",
+    "theme": "internațional, generalist",
+    "description": "Aservo INTERNAȚIONAL este canalul internațional al rețelei Aservo, cu programe de știri, divertisment și producții proprii pentru audiența internațională.",
+    "streamUrl": "https://media.helloether.co/hls/media/aservoint.m3u8",
+    "type": "video"
+},
+{
+    "id": 169,
+    "name": "Bytey INTERNAȚIONAL",
+    "theme": "internațional, generalist",
+    "description": "Bytey INTERNAȚIONAL este canalul internațional al Bytey, oferind programe variate de știri, divertisment și cultură pentru publicul global.",
+    "streamUrl": "https://media.helloether.co/hls/media/byteyint.m3u8",
+    "type": "video"
+},
+   {
+        "id": 170,
+        "name": "TVR INTERNAȚIONAL",
+        "theme": "internațional, generalist",
+        "streamUrl": "https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8",
+        "type": "video",
+        "description": "TVR INTERNAȚIONAL"
+    },
+    {
+        "id": 171,
+        "name": "Moldova 1",
+        "theme": "internațional, generalist, moldova",
+        "description": "Moldova 1 este principalul canal public de televiziune din Republica Moldova.",
+        "streamUrl": "https://v0.trm.md/static/streaming-playlists/hls/9b79338b-1870-4cd7-91d4-0f6ce5cac7ca/master.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 172,
+        "name": "Moldova 2",
+        "theme": "internațional, generalist, moldova",
+        "description": "Moldova 2 completează oferta Moldova 1.",
+        "streamUrl": "https://v.trm.md/static/streaming-playlists/hls/937e4e0e-7174-4fb2-a299-480e68b49ecb/master.m3u8",
+        "type": "video"
+    },
+   {
+        "id": 173,
+        "name": "TVR MOLDOVA",
+        "theme": "internațional, generalist, moldova",
+        "streamUrl": "https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist.m3u8",
+        "type": "video",
+        "description": "TVR MOLDOVA"
+    },
+    {
+        "id": 174,
+        "name": "Rai 1",
+        "theme": "internațional, generalist, italia",
+        "description": "Rai 1 este principalul canal public italian.",
+        "streamUrl": "https://ilglobotv-live.akamaized.net/channels/RAI1/Live.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 175,
+        "name": "Rai 2",
+        "theme": "internațional, generalist, italia",
+        "description": "Rai 2 este canalul italian de divertisment.",
+        "streamUrl": "https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 176,
+        "name": "Rai 3",
+        "theme": "internațional, generalist, italia",
+        "description": "Rai 3 este canalul italian axat pe informație și cultură.",
+        "streamUrl": "https://ilglobotv-live.akamaized.net/channels/RAI3/Live.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 177,
+        "name": "BBC One",
+        "theme": "internațional, generalist, marea britanie",
+        "description": "BBC One este canalul principal al televiziunii publice britanice.",
+        "streamUrl": "https://streamer.nexyl.uk/5c858268-a93b-45f8-9e82-41d66b526d6c.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 178,
+        "name": "BBC Two",
+        "theme": "internațional, generalist, marea britanie",
+        "description": "BBC Two difuzează programe educative și culturale.",
+        "streamUrl": "https://streamer.nexyl.uk/69ef899e-8ca9-4537-9f1a-fe8b4216afbb.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 179,
+        "name": "BBC Three",
+        "theme": "internațional, generalist, marea britanie",
+        "description": "BBC Three",
+        "streamUrl": "https://streamer.nexyl.uk/39290a19-b8dd-43ea-b8dc-081c37790f24.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 180,
+        "name": "Euronews French",
+        "theme": "internațional, știri, franța",
+        "description": "Euronews French",
+        "streamUrl": "https://euronews-live-fra-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6564/bitok/eyJzdGlkIjoiYjA1ZmVmMzAtYjhkZC00Y2E5LThkM2ItMTRkNjE1MjdmYjE0IiwibWt0IjoiZnIiLCJjaCI6NjU2NCwicHRmIjo1fQ==/26032/euronews-fr.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 181,
+        "name": "RT French",
+        "theme": "internațional, știri, franța",
+        "description": "RT French",
+        "streamUrl": "https://rt-fra.rttv.com/dvr/rtfrance/playlist_800Kb.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 182,
+        "name": "France 24",
+        "theme": "internațional, știri, franța",
+        "description": "France 24",
+        "streamUrl": "https://dash4.antik.sk/live/test_france24_france/playlist.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 183,
+        "name": "Freedom",
+        "theme": "internațional, generalist, ucraina",
+        "description": "Freedom este un canal ucrainean de știri și actualitate internațională, care promovează libertatea și valorile democratice.",
+        "streamUrl": "https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 184,
+        "name": "Euronews",
+        "theme": "internațional, știri, europa",
+        "description": "Euronews oferă știri internaționale, analize și reportaje din întreaga Europă și din lume.",
+        "streamUrl": "https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 185,
+        "name": "Africanews",
+        "theme": "internațional, știri, africa",
+        "description": "Africanews este canalul pan-african de știri care prezintă informații și reportaje din întreaga Africă, cu o perspectivă independentă și regională.",
+        "streamUrl": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 186,
+        "name": "portoSYNC IAȘI",
+        "theme": "regional, generalist",
+        "description": "portoSYNC IAȘI",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncis.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 187,
+        "name": "portoSYNC VRANCEA",
+        "theme": "regional, generalist",
+        "description": "portoSYNC VRANCEA",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncvn.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 188,
+        "name": "Ade Plus Bihor",
+        "theme": "regional, generalist",
+        "description": "Ade Plus Bihor",
+        "streamUrl": "https://media.helloether.co/hls/media/adeplusbh.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 189,
+        "name": "Ade Plus Dolj",
+        "theme": "regional, generalist",
+        "description": "Ade Plus Dolj",
+        "streamUrl": "https://media.helloether.co/hls/media/adeplusdolj.m3u8",
+        "type": "video"
+    },
+   {
+        "id": 190,
+        "name": "UPTV",
+        "theme": "regional, generalist",
+        "description": "UPTV",
+        "streamUrl": "https://media.helloether.co/hls/media/uptv.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 191,
+        "name": "OTV Bihor",
+        "theme": "regional, generalist",
+        "description": "OTV Bihor",
+        "streamUrl": "https://media.helloether.co/hls/media/otvbh.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 192,
+        "name": "OTV Călărași",
+        "theme": "regional, generalist",
+        "description": "OTV Călărași",
+        "streamUrl": "https://media.helloether.co/hls/media/otvcl.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 193,
+        "name": "TVR CLUJ",
+        "theme": "regional, generalist",
+        "streamUrl": "https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/chunklist_b5160000.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 194,
+        "name": "TVR CRAIOVA",
+        "theme": "regional, generalist",
+        "streamUrl": "https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/chunklist_b5160000.m3u8",
+        "type": "video",
+        "description": "TVR CRAIOVA"
+    },
+    {
+        "id": 195,
+        "name": "TVR IAȘI",
+        "theme": "regional, generalist",
+        "streamUrl": "https://tvr-iasi.lg.mncdn.com/tvriasi/smil:tvriasi.smil/chunklist_b5160000.m3u8",
+        "type": "video",
+        "description": "TVR IAȘI"
+    },
+    {
+        "id": 196,
+        "name": "TVR TÂRGU MUREȘ",
+        "theme": "regional, generalist",
+        "streamUrl": "https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8",
+        "type": "video",
+        "description": "TVR TÂRGU MUREȘ"
+    },
+    {
+        "id": 197,
+        "name": "TVR TIMIȘOARA",
+        "theme": "regional, generalist",
+        "streamUrl": "https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/chunklist_b5160000.m3u8",
+        "type": "video",
+        "description": "TVR TIMIȘOARA"
+    },
+    {
+        "id": 198,
+        "name": "portoSYNC 4:3",
+        "theme": "4:3, generalist",
+        "description": "portoSYNC 4:3 este canalul generalist din portoSYNC care difuzează programe în format 4:3.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync4:3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 199,
+        "name": "Aservo 4:3",
+        "theme": "4:3, generalist",
+        "description": "Aservo 4:3 este canalul generalist de pe Aservo care difuzează programe în format 4:3.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo4:3.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 200,
+        "name": "portoSYNC HD",
+        "theme": "hd, generalist",
+        "description": "portoSYNC HD este primul canal exclusiv formatului HD, aparține de portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsynchd.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 201,
+        "name": "Aservo HD",
+        "theme": "hd, generalist",
+        "description": "Aservo HD este primul canal exclusiv formatului HD, aparține de Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservohd.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 202,
+        "name": "portoSYNC QHD",
+        "theme": "qhd, generalist",
+        "description": "portoSYNC QHD este primul canal exclusiv formatului QHD, aparține de portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncqhd.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 203,
+        "name": "Aservo QHD",
+        "theme": "qhd, generalist",
+        "description": "Aservo QHD este primul canal exclusiv formatului QHD, aparține de Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservoqhd.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 204,
+        "name": "portoSYNC 4K",
+        "theme": "4k, generalist",
+        "description": "portoSYNC 4K este primul canal 4K din portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync4k.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 205,
+        "name": "Aservo 4K",
+        "theme": "4k, generalist",
+        "description": "Aservo 4K este primul canal 4K, aparține de Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo4k.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 206,
+        "name": "portoSYNC 8K",
+        "theme": "8k, generalist",
+        "description": "portoSYNC 8K este primul canal 8K din portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync8k.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 207,
+        "name": "Aservo 8K",
+        "theme": "8k, generalist",
+        "description": "Aservo 8K este primul canal 8K, aparține de Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo8k.m3u8",
+        "type": "video"
+    },
+    {
+        "id": 208,
+        "name": "portoSYNC PPV",
+        "theme": "ppv, generalist",
+        "description": "portoSYNC PPV este singurul canal pay-per-view al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncppv.m3u8",
+        "type": "video",
+        "password": "portoSYNC"
+    },
+    {
+        "id": 209,
+        "name": "portoSYNC PPV 2",
+        "theme": "ppv, generalist",
+        "description": "portoSYNC PPV este al doilea canal pay-per-view al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncppv2.m3u8",
+        "type": "video",
+        "password": "portoSYNC"
+    },
+    {
+        "id": 210,
+        "name": "Aservo PPV",
+        "theme": "ppv, generalist",
+        "description": "Aservo PPV este singurul canal pay-per-view al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservoppv.m3u8",
+        "type": "video",
+        "password": "portoSYNC"
+    },
+    {
+        "id": 211,
+        "name": "Aservo PPV 2",
+        "theme": "ppv, generalist",
+        "description": "Aservo PPV este al doilea canal pay-per-view al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservoppv2.m3u8",
+        "type": "video",
+        "password": "portoSYNC"
+    },
+    {
+        "id": 212,
+        "name": "portoSYNC ADULT",
+        "theme": "adulți",
+        "description": "portoSYNC ADULT este singurul canal de adulți care este al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsyncadult.m3u8",
+        "type": "video",
+        "password": "ADULT"
+    },
+    {
+        "id": 213,
+        "name": "Aservo ADULT",
+        "theme": "adulți",
+        "description": "Aservo ADULT este singurul canal de adulți care este al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservoadult.m3u8",
+        "type": "video",
+        "password": "ADULT"
+    },
+    {
+        "id": 214,
+        "name": "portoSYNC 18+",
+        "theme": "adulți",
+        "description": "portoSYNC 18+ este al doilea canal de adulți care este al portoSYNC.",
+        "streamUrl": "https://media.helloether.co/hls/media/prtsync18+.m3u8",
+        "type": "video",
+        "password": "ADULT"
+    },
+    {
+        "id": 215,
+        "name": "Aservo 18+",
+        "theme": "adulți",
+        "description": "Aservo 18+ este al doilea canal de adulți care este al Aservo.",
+        "streamUrl": "https://media.helloether.co/hls/media/aservo18+.m3u8",
+        "type": "video",
+        "password": "ADULT"
+    },
+        {
+        "id": 216,
+        "name": "EroticArt",
+        "theme": "adulți",
+        "description": "EroticArt",
+        "streamUrl": "https://media.helloether.co/hls/media/eroticart.m3u8",
+        "type": "video",
+        "password": "ADULT"
+    },
+        {
+        "id": 217,
+        "name": "EroticArt +",
+        "theme": "adulți",
+        "description": "EroticArt +",
+        "streamUrl": "https://media.helloether.co/hls/media/eroticartplus.m3u8",
+        "type": "video",
+        "password": "ADULT"
+    },
+    {
+        "id": 218,
+        "name": "portoSYNC RADIO",
+        "theme": "radio",
+        "description": "portoSYNC RADIO este primul canal de radio cu muzică 24/7 din cadrul portoSYNC.",
+        "streamUrl": "https://stream-174.zeno.fm/cx6iyynkgzzvv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 219,
+        "name": "portoSYNC RADIO 2",
+        "theme": "radio",
+        "description": "portoSYNC RADIO 2 este al doilea canal de radio cu muzică 24/7 din cadrul portoSYNC.",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 220,
+        "name": "portoSYNC RADIO 3",
+        "theme": "radio",
+        "description": "portoSYNC RADIO 3 este al treilea canal de radio cu muzică 24/7 din cadrul portoSYNC.",
+        "streamUrl": "https://stream-177.zeno.fm/jmtsijdreecuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqbXRzaWpkcmVlY3V2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNaRVNMd2J1VGZPRnptckRnWnFrTUEiLCJpYXQiOjE3NjU4OTEwNzEsImV4cCI6MTc2NTg5MTEzMX0.ZQ6OfQbtwy25J_kEvBv2-9DwrWN9yCFRoOAW12L7qcw",
+        "type": "audio"
+    },
+    {
+        "id": 221,
+        "name": "portoSYNC RADIO Colinde",
+        "theme": "radio",
+        "description": "portoSYNC RADIO Colinde",
+        "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
+        "type": "audio"
+    },
+    {
+        "id": 222,
+        "name": "Aservo RADIO",
+        "theme": "radio",
+        "description": "Aservo RADIO este primul canal de radio cu muzică 24/7 din cadrul Aservo.",
+        "streamUrl": "https://stream-174.zeno.fm/cx6iyynkgzzvv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 223,
+        "name": "Aservo RADIO 2",
+        "theme": "radio",
+        "description": "Aservo RADIO 2 este al doilea canal de radio cu muzică 24/7 din cadrul Aservo.",
+        "streamUrl": "https://stream-177.zeno.fm/jmtsijdreecuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqbXRzaWpkcmVlY3V2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNaRVNMd2J1VGZPRnptckRnWnFrTUEiLCJpYXQiOjE3NjU4OTEwNzEsImV4cCI6MTc2NTg5MTEzMX0.ZQ6OfQbtwy25J_kEvBv2-9DwrWN9yCFRoOAW12L7qcw",
+        "type": "audio"
+    },
+    {
+        "id": 224,
+        "name": "Aservo RADIO 3",
+        "theme": "radio",
+        "description": "Aservo RADIO 3 este al treilea canal de radio cu muzică 24/7 din cadrul Aservo.",
+        "streamUrl": "https://stream-177.zeno.fm/jmtsijdreecuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqbXRzaWpkcmVlY3V2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNaRVNMd2J1VGZPRnptckRnWnFrTUEiLCJpYXQiOjE3NjU4OTEwNzEsImV4cCI6MTc2NTg5MTEzMX0.ZQ6OfQbtwy25J_kEvBv2-9DwrWN9yCFRoOAW12L7qcw",
+        "type": "audio"
+    },
+    {
+        "id": 225,
+        "name": "Aservo RADIO Colinde",
+        "theme": "radio",
+        "description": "Aservo RADIO Colinde",
+        "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
+        "type": "audio"
+    },
+    {
+        "id": 226,
+        "name": "Ade Radio",
+        "theme": "radio",
+        "description": "Ade Radio este primul canal radio marca Ade Media.",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 227,
+        "name": "Ade Radio Colinde",
+        "theme": "radio",
+        "description": "Ade Radio Colinde",
+        "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
+        "type": "audio"
+    },
+    {
+        "id": 228,
+        "name": "Alpha Radio",
+        "theme": "radio",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio",
+        "description": "Alpha Radio"
+    },
+    {
+        "id": 229,
+        "name": "Alpha Radio Colinde",
+        "theme": "radio",
+        "description": "Alpha Radio Colinde",
+        "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
+        "type": "audio"
+    },
+    {
+        "id": 230,
+        "name": "Bytey RADIO",
+        "theme": "radio",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio",
+        "description": "Bytey RADIO"
+    },
+    {
+        "id": 231,
+        "name": "Bytey RADIO Colinde",
+        "theme": "radio",
+        "description": "Bytey RADIO Colinde",
+        "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
+        "type": "audio"
+    },
+    {
+        "id": 232,
+        "name": "XFM",
+        "theme": "radio",
+        "description": "XFM este un post de radio românesc dedicat muzicii electronice și celor mai fresh hituri.",
+        "streamUrl": "https://stream-173.zeno.fm/vmcnvbbfcvxuv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 233,
+        "name": "XMUZFM",
+        "theme": "radio",
+        "description": "XMUZFM",
+        "streamUrl": "https://stream.zeno.fm/pgudgo6oqwvvv",
+        "type": "audio"
+    },
+    {
+        "id": 234,
+        "name": "XATVCFM",
+        "theme": "radio",
+        "description": "XATVCFM",
+        "streamUrl": "https://stream.zeno.fm/ess1bmm24jutv",
+        "type": "audio"
+    },
+    {
+        "id": 235,
+        "name": "Radio BanatSync Manele",
+        "theme": "radio",
+        "streamUrl": "https://listen.banatsync.com/manele",
+        "type": "audio",
+        "description": "Radio BanatSync Manele"
+    },
+    {
+        "id": 236,
+        "name": "Radio BanatSync Populară",
+        "theme": "radio",
+        "streamUrl": "https://listen.banatsync.com/populara",
+        "type": "audio",
+        "description": "Radio BanatSync Populară"
+    },
+    {
+        "id": 237,
+        "name": "Radio BanatSync Dance",
+        "theme": "radio",
+        "streamUrl": "https://listen.banatsync.com/dance",
+        "type": "audio",
+        "description": "Radio BanatSync Dance"
+    },
+    {
+        "id": 238,
+        "name": "OLTS Radio",
+        "theme": "radio",
+        "description": "OLTS Radio e un radio mai altfel, fiind deținută de OLTS.",
+        "streamUrl": "https://stream-174.zeno.fm/cx6iyynkgzzvv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 239,
+        "name": "Broadcast FM",
+        "theme": "radio",
+        "description": "Broadcast FM este radioul tău de petrecere și de suflet.",
+        "streamUrl": "https://stream-174.zeno.fm/cx6iyynkgzzvv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 240,
+        "name": "Homa",
+        "theme": "radio",
+        "description": "Homa este un radio de tip electronic, însă are un vibe mai de făcut de acasă.",
+        "streamUrl": "https://live.clubradio.ro/listen/clubradio/live",
+        "type": "audio"
+    },
+    {
+        "id": 241,
+        "name": "Epilisium",
+        "theme": "radio",
+        "description": "Epilisium este canalul de radio cu muzică 24/7 din cadrul companiei portoSYNC.",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 242,
+        "name": "Epilisium Plus",
+        "theme": "radio",
+        "description": "Epilisium Plus este radioul care aduce muzică în plus.",
+        "streamUrl": "https://stream-174.zeno.fm/cx6iyynkgzzvv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 243,
+        "name": "Teleaudio",
+        "theme": "radio",
+        "description": "Teleaudio este radioul tău de suflet.",
+        "streamUrl": "https://stream-174.zeno.fm/cx6iyynkgzzvv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 244,
+        "name": "Teleradio",
+        "theme": "radio",
+        "description": "Teleradio este radioul tău de petrecere.",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 245,
+        "name": "RadioMix",
+        "theme": "radio",
+        "description": "RadioMix este radioul tău de petrecere.",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 246,
+        "name": "RadioArt",
+        "theme": "radio",
+        "description": "RadioArt este radioul tău de petrecere.",
+        "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+        "type": "audio"
+    },
+    {
+        "id": 247,
+        "name": "RadioArt +",
+        "theme": "radio",
+        "description": "RadioArt +",
+        "streamUrl": "https://live.clubradio.ro/listen/clubradio/live",
+        "type": "audio"
+    },
+    {
+        "id": 248,
+        "name": "RadioArt Disco",
+        "theme": "radio",
+        "description": "RadioArt Disco",
+        "streamUrl": "https://sonic2-rbx.cloud-center.ro:8034/stream",
+        "type": "audio"
+    },
+    {
+        "id": 249,
+        "name": "RadioArt Colinde",
+        "theme": "radio",
+        "description": "RadioArt Colinde",
+        "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
+        "type": "audio"
+    },
+    {
+        "id": 250,
+        "name": "You FM",
+        "theme": "radio",
+        "description": "You FM este un radio tip CHR, apreciat de Colegiul Tehnic “Edmond Nicolau” Focșani.",
+        "streamUrl": "https://sonic2-rbx.cloud-center.ro:8034/stream",
+        "type": "audio"
+    },
+    {
+        "id": 251,
+        "name": "Clubradio",
+        "theme": "radio",
+        "description": "Clubradio este postul de radio dedicat muzicii dance și clubbing, difuzând cele mai tari ritmuri pentru o atmosferă de petrecere non-stop.",
+        "streamUrl": "https://live.clubradio.ro/listen/clubradio/live",
+        "type": "audio"
+    },
+    {
+        "id": 252,
+        "name": "Radio Te Ador",
+        "theme": "radio",
+        "description": "Radio Te Ador e un radio care combină vechiul cu actualul.",
+        "streamUrl": "https://sonicpanel.namehost.ro:1260/stream",
+        "type": "audio"
+    },
+    {
+        "id": 253,
+        "name": "Kiss FM",
+        "theme": "radio",
+        "description": "Kiss FM are o activitate de peste 20 de ani în România. Este #1 în clasamentele de audiență.",
+        "streamUrl": "https://live.kissfm.ro/kissfm.aacp",
+        "type": "audio"
+    },
+    {
+        "id": 254,
+        "name": "Magic FM",
+        "theme": "radio",
+        "description": "Magic FM este un post de radio dedicat melodiilor clasice, baladelor și muzicii relaxante.",
+        "streamUrl": "https://live.rockfm.ro:8443/magicfm.aacp",
+        "type": "audio"
+    },
+    {
+        "id": 255,
+        "name": "Rock FM",
+        "theme": "radio",
+        "description": "Rock FM.",
+        "streamUrl": "https://live.rockfm.ro/rockfm.aacp",
+        "type": "audio"
+    },
+    {
+        "id": 256,
+        "name": "Radio ZU",
+        "theme": "radio",
+        "description": "Radio ZU este un post de radio din România, orientat spre muzică pop, hituri internaționale și emisiuni de divertisment energice.",
+        "streamUrl": "https://live7digi.antenaplay.ro/radiozu/radiozu-48000.m3u8",
+        "type": "audio"
+    },
+    {
+        "id": 257,
+        "name": "Focus FM",
+        "theme": "radio",
+        "description": "Focus FM",
+        "streamUrl": "http://live.focusfm.ro:8000/focusfmhigh.ogg",
+        "type": "audio"
+    },
+    {
+        "id": 258,
+        "name": "DIGI FM",
+        "theme": "radio",
+        "description": "DIGI FM este un post de radio național din România, parte a grupului DIGI, care oferă programe de știri, muzică și divertisment.",
+        "streamUrl": "https://edge76.rcs-rds.ro/digifm/digifm.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 259,
+        "name": "DIGI 24 FM",
+        "theme": "radio",
+        "description": "DIGI 24 FM este postul de radio al rețelei DIGI 24, oferind știri, actualități și analize în timp real.",
+        "streamUrl": "https://edge76.rcs-rds.ro/digifm/digi24fm.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 260,
+        "name": "PRO FM",
+        "theme": "radio",
+        "description": "PRO FM",
+        "streamUrl": "https://edge126.rcs-rds.ro/profm/profm.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 261,
+        "name": "Dance FM",
+        "theme": "radio",
+        "description": "Dance FM",
+        "streamUrl": "https://edge126.rcs-rds.ro/profm/dancefm.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 262,
+        "name": "Radio Impuls",
+        "theme": "radio",
+        "description": "Radio Impuls este un radio de tip mainstream, aparținând de Dogan Media International.",
+        "streamUrl": "https://live.radio-impuls.ro/stream.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 263,
+        "name": "Europa FM",
+        "theme": "radio",
+        "description": "Europa FM este un post de radio național din România, cunoscut pentru muzică actuală, știri de încredere și emisiuni cu audiență largă.",
+        "streamUrl": "https://astreaming.edi.ro:8443/europafm_aacp48k",
+        "type": "audio"
+    },
+    {
+        "id": 264,
+        "name": "Virgin Radio",
+        "theme": "radio",
+        "description": "Virgin Radio este un post de radio modern din România, axat pe hituri actuale și conținut urban.",
+        "streamUrl": "https://astreaming.edi.ro:8443/virgin_aacp_64k",
+        "type": "audio"
+    },
+    {
+        "id": 265,
+        "name": "Radio Boom",
+        "theme": "radio",
+        "description": "Este un radio buzoian care emite pe internet. Aparține de TVSat.",
+        "streamUrl": "https://stream.radioboom.ro:8520/radio.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 266,
+        "name": "Radio Manele",
+        "theme": "radio",
+        "description": "Radio Manele este un radio de manele TOP, 24/7.",
+        "streamUrl": "https://play.wrhradios.com/8044/stream",
+        "type": "audio"
+    },
+    {
+        "id": 267,
+        "name": "Radio 1 Manele",
+        "theme": "radio, manele",
+        "description": "Radio 1 Manele este un radio de manele unic.",
+        "streamUrl": "https://ssl.omegahost.ro/8000/stream",
+        "type": "audio"
+    },
+    {
+        "id": 268,
+        "name": "Radio Trinitas",
+        "theme": "radio, religios",
+        "description": "Radio Trinitas este postul de radio al Patriarhiei Române, cu programe religioase, culturale și educative în spirit creștin-ortodox.",
+        "streamUrl": "https://live.radiotrinitas.ro:8003/;",
+        "type": "audio"
+    },
+    {
+        "id": 269,
+        "name": "Denisa - Inimă nu-mi spune tu",
+        "theme": "muzică, mp3",
+        "streamUrl": "inimadenisa.mp3",
+        "type": "audio",
+        "description": "Denisa - Inimă nu-mi spune tu"
+    },
+{
+    "id": 270,
+    "name": "Bogdan Pîrvu - Am să plâng pentru tot ce am trăit | Bioxic Remix",
+    "theme": "muzică, mp3",
+    "description": "Bogdan Pîrvu - Am să plâng pentru tot ce am trăit | Bioxic Remix",
+    "streamUrl": "plang.mp3",
+    "type": "audio"
+},
+{
+    "id": 271,
+    "name": "Ticy, Denisa - Fac orice",
+    "theme": "muzică, mp3",
+    "description": "Ticy, Denisa - Fac orice",
+    "streamUrl": "facorice.mp3",
+    "type": "audio"
+},
+{
+    "id": 272,
+    "name": "Alexandra Cotruș - Lady Boss",
+    "theme": "muzică, mp3",
+    "description": "Alexandra Cotruș - Lady Boss",
+    "streamUrl": "ladyboss.mp3",
+    "type": "audio"
+},
+{
+    "id": 273,
+    "name": "Alexandra Cotruș - Lady Boss | Porto Remix",
+    "theme": "muzică, mp3",
+    "description": "Alexandra Cotruș - Lady Boss | Porto Remix",
+    "streamUrl": "ladybossrmx.mp3",
+    "type": "audio"
+},
+{
+    "id": 274,
+    "name": "Denisa - Eu te iubesc | Everest Remix",
+    "theme": "muzică, mp3",
+    "description": "Denisa - Eu te iubesc | Everest Remix",
+    "streamUrl": "euteiub.mp3",
+    "type": "audio"
+},
+{
+    "id": 275,
+    "name": "Babi Minune - Sărac sau rege",
+    "theme": "muzică, mp3",
+    "description": "Babi Minune - Sărac sau rege",
+    "streamUrl": "saracsaurege.mp3",
+    "type": "audio"
+},
+{
+    "id": 276,
+    "name": "Kali - Kato te pochna",
+    "theme": "muzică, mp3",
+    "description": "Kali - Kato te pochna",
+    "streamUrl": "saracsauregebg.mp3",
+    "type": "audio"
+},
+{
+    "id": 277,
+    "name": "AlbertNBN, Marius Babanu - Arăboaica alarmantă | CRX, Everest Mashup",
+    "theme": "muzică, mp3",
+    "description": "AlbertNBN, Marius Babanu - Arăboaica alarmantă | CRX, Everest Mashup",
+    "streamUrl": "portovsmiruna.mp3",
+    "type": "audio"
+},
+{
+    "id": 278,
+    "name": "Claudia, Asu, Ticy - Zalele",
+    "theme": "muzică, mp3",
+    "description": "Claudia, Asu, Ticy - Zalele",
+    "streamUrl": "zalele.mp3",
+    "type": "audio"
+},
+{
+    "id": 279,
+    "name": "Florin Salam, Mr. Juve - Sanki Sanki",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam, Mr. Juve - Sanki Sanki",
+    "streamUrl": "sankisanki.mp3",
+    "type": "audio"
+},
+{
+    "id": 280,
+    "name": "Babi Minune - Inimă de Țigan",
+    "theme": "muzică, mp3",
+    "description": "Babi Minune - Inimă de Țigan",
+    "streamUrl": "tigan.mp3",
+    "type": "audio"
+},
+{
+    "id": 281,
+    "name": "Mr. Juve, Cristinel - Bagă dans frumos",
+    "theme": "muzică, mp3",
+    "description": "Mr. Juve, Cristinel - Bagă dans frumos",
+    "streamUrl": "bagadans.mp3",
+    "type": "audio"
+},
+{
+    "id": 282,
+    "name": "Florin Salam, Raluca Drăgoi - Nebunia anului",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam, Raluca Drăgoi - Nebunia anului",
+    "streamUrl": "nebuniaanului.mp3",
+    "type": "audio"
+},
+{
+    "id": 283,
+    "name": "Costel Ciofu, Leonard - Toți banii din lume",
+    "theme": "muzică, mp3",
+    "description": "Costel Ciofu, Leonard - Toți banii din lume",
+    "streamUrl": "totibanii.mp3",
+    "type": "audio"
+},
+{
+    "id": 284,
+    "name": "Jean de la Craiova, Mădălina - Beyonce de România",
+    "theme": "muzică, mp3",
+    "description": "Jean de la Craiova, Mădălina - Beyonce de România",
+    "streamUrl": "beyoncero.mp3",
+    "type": "audio"
+},
+{
+    "id": 285,
+    "name": "Irina Loghin - Valea Prahovei | DJD Remix",
+    "theme": "muzică, mp3",
+    "description": "Irina Loghin - Valea Prahovei | DJD Remix",
+    "streamUrl": "valeaprahoveirmx.mp3",
+    "type": "audio"
+},
+{
+    "id": 286,
+    "name": "Tzanca Uraganu - Dansezi de 60 de minute",
+    "theme": "muzică, mp3",
+    "description": "Tzanca Uraganu - Dansezi de 60 de minute",
+    "streamUrl": "danseaza.mp3",
+    "type": "audio"
+},
+{
+    "id": 287,
+    "name": "Cătălin Arabu’, Minodora - Întoarce-te în viața mea",
+    "theme": "muzică, mp3",
+    "description": "Cătălin Arabu’, Minodora - Întoarce-te în viața mea",
+    "streamUrl": "viata.mp3",
+    "type": "audio"
+},
+{
+    "id": 288,
+    "name": "Florin Salam, Denisa - Iubire iartă-mă | Everest Remix",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam, Denisa - Iubire iartă-mă | Everest Remix",
+    "streamUrl": "iubireeverest.mp3",
+    "type": "audio"
+},
+{
+    "id": 289,
+    "name": "Florin Salam, Blondu de la Timișoara - Apasă pe sufletul meu | Bioxic Mashup",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam, Blondu de la Timișoara - Apasă pe sufletul meu | Bioxic Mashup",
+    "streamUrl": "apasasuflet.mp3",
+    "type": "audio"
+},
+{
+    "id": 290,
+    "name": "Ionuț Ene - Cum se aude gagică-ta",
+    "theme": "muzică, mp3",
+    "description": "Ionuț Ene - Cum se aude gagică-ta",
+    "streamUrl": "hitgagica.mp3",
+    "type": "audio"
+},
+{
+    "id": 291,
+    "name": "Claudia, Play AJ - Îți dau numărul meu pe mess | Bioxic Remix",
+    "theme": "muzică, mp3",
+    "description": "Claudia, Play AJ - Îți dau numărul meu pe mess | Bioxic Remix",
+    "streamUrl": "mess.mp3",
+    "type": "audio"
+},
+{
+    "id": 292,
+    "name": "Florin Salam, Frații Turcitu - Alo România",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam, Frații Turcitu - Alo România",
+    "streamUrl": "aloromania.mp3",
+    "type": "audio"
+},
+{
+    "id": 293,
+    "name": "Denis Rămînceanu - Tăgădăm paș paș | EVM Remix",
+    "theme": "muzică, mp3",
+    "description": "Denis Rămînceanu - Tăgădăm paș paș | EVM Remix",
+    "streamUrl": "tagadampas.mp3",
+    "type": "audio"
+},
+{
+    "id": 294,
+    "name": "Florin Salam - 7 Zile | Bioxic Remix",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam - 7 Zile | Bioxic Remix",
+    "streamUrl": "7zile.mp3",
+    "type": "audio"
+},
+{
+    "id": 295,
+    "name": "Real Skitt - Colindul Vagabonților",
+    "theme": "muzică, mp3",
+    "description": "Real Skitt - Colindul Vagabonților",
+    "streamUrl": "cvag1.mp3",
+    "type": "audio"
+},
+{
+    "id": 296,
+    "name": "Real Skitt, Marinică Piticu - Colindul Vagabonților 2",
+    "theme": "muzică, mp3",
+    "description": "Real Skitt, Marinică Piticu - Colindul Vagabonților 2",
+    "streamUrl": "cvag2.mp3",
+    "type": "audio"
+},
+{
+    "id": 297,
+    "name": "Real Skitt, Marinică Piticu - Colindul Vagabonților 3",
+    "theme": "muzică, mp3",
+    "description": "Real Skitt, Marinică Piticu - Colindul Vagabonților 3",
+    "streamUrl": "cvag3.mp3",
+    "type": "audio"
+},
+{
+    "id": 298,
+    "name": "Armin Nicoară - Instrumentala lui Armin",
+    "theme": "muzică, mp3",
+    "description": "Armin Nicoară - Instrumentala lui Armin",
+    "streamUrl": "armin.mp3",
+    "type": "audio"
+},
+{
+    "id": 299,
+    "name": "B.U.G. Mafia, MOZA KALIZA - Au!",
+    "theme": "muzică, mp3",
+    "description": "B.U.G. Mafia, MOZA KALIZA - Au!",
+    "streamUrl": "au.mp3",
+    "type": "audio"
+},
+{
+    "id": 300,
+    "name": "Real Skitt, Marinică Piticu - Sistemul Thoia Thoing",
+    "theme": "muzică, mp3",
+    "description": "Real Skitt, Marinică Piticu - Sistemul Thoia Thoing",
+    "streamUrl": "sistemthoia.mp3",
+    "type": "audio"
+},
+{
+    "id": 301,
+    "name": "Șușanu - I-auzi ia",
+    "theme": "muzică, mp3",
+    "description": "Șușanu - I-auzi ia",
+    "streamUrl": "iauzi.mp3",
+    "type": "audio"
+},
+{
+    "id": 302,
+    "name": "Nicolae Guță, Șușanu - Puștoiaco cu păr roșcat (CD Version)",
+    "theme": "muzică, mp3",
+    "description": "Nicolae Guță, Șușanu - Puștoiaco cu păr roșcat (CD Version)",
+    "streamUrl": "roscatcd.mp3",
+    "type": "audio"
+},
+{
+    "id": 303,
+    "name": "Nicolae Guță - Cine te iubește",
+    "theme": "muzică, mp3",
+    "description": "Nicolae Guță - Cine te iubește",
+    "streamUrl": "teiubeste.mp3",
+    "type": "audio"
+},
+{
+    "id": 304,
+    "name": "Nicolae Guță - Cine te iubește | Everest Remix",
+    "theme": "muzică, mp3",
+    "description": "Nicolae Guță - Cine te iubește | Everest Remix",
+    "streamUrl": "teiubestermx.mp3",
+    "type": "audio"
+},
+{
+    "id": 305,
+    "name": "Bairam - Alladin",
+    "theme": "muzică, mp3",
+    "description": "Bairam - Alladin",
+    "streamUrl": "alladin.mp3",
+    "type": "audio"
+},
+{
+    "id": 306,
+    "name": "Claudia - Și mi-e dor",
+    "theme": "muzică, mp3",
+    "description": "Claudia - Și mi-e dor",
+    "streamUrl": "dor.mp3",
+    "type": "audio"
+},
+{
+    "id": 307,
+    "name": "Asu, Ionuț Prințu - Te iubesc din Corason",
+    "theme": "muzică, mp3",
+    "description": "Asu, Ionuț Prințu - Te iubesc din Corason",
+    "streamUrl": "corason.mp3",
+    "type": "audio"
+},
+{
+    "id": 308,
+    "name": "Nicușor Guță - Nu vreau răzbunare",
+    "theme": "muzică, mp3",
+    "description": "Nicușor Guță - Nu vreau răzbunare",
+    "streamUrl": "inchis.mp3",
+    "type": "audio"
+},
+{
+    "id": 309,
+    "name": "Florin Bora, Sică de la Oltenița - Sistemul Balmain",
+    "theme": "muzică, mp3",
+    "description": "Florin Bora, Sică de la Oltenița - Sistemul Balmain",
+    "streamUrl": "balmain.mp3",
+    "type": "audio"
+},
+{
+    "id": 310,
+    "name": "Denisa, Leo de la Roșiori - Cât ar jura inima mea | Bioxic Mashup",
+    "theme": "muzică, mp3",
+    "description": "Denisa, Leo de la Roșiori - Cât ar jura inima mea | Bioxic Mashup",
+    "streamUrl": "jurainima.mp3",
+    "type": "audio"
+},
+{
+    "id": 311,
+    "name": "Florin Salam, Oana - La orice pas",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam, Oana - La orice pas",
+    "streamUrl": "laoricepas.mp3",
+    "type": "audio"
+},
+{
+    "id": 312,
+    "name": "Florin Salam, Oana - La orice pas | Bioxic Remix",
+    "theme": "muzică, mp3",
+    "description": "Florin Salam, Oana - La orice pas | Bioxic Remix",
+    "streamUrl": "laoricepasrmx.mp3",
+    "type": "audio"
+},
+{
+    "id": 313,
+    "name": "Denisa - Clipele frumoase și senine",
+    "theme": "muzică, mp3",
+    "description": "Denisa - Clipele frumoase și senine",
+    "streamUrl": "clipe.mp3",
+    "type": "audio"
+},
+{
+    "id": 314,
+    "name": "Denisa - Clipele frumoase și senine | Porto, DJ Vasile, Sufletul Manelelor, ovou Remix",
+    "theme": "muzică, mp3",
+    "description": "Denisa - Clipele frumoase și senine | Porto, DJ Vasile, Sufletul Manelelor, ovou Remix",
+    "streamUrl": "clipermx.mp3",
+    "type": "audio"
+},
+{
+    "id": 315,
+    "name": "Geany Morandi - Vreau să te văd fericită | Remix",
+    "theme": "muzică, mp3",
+    "description": "Geany Morandi - Vreau să te văd fericită | Remix",
+    "streamUrl": "nevastarmx.mp3",
+    "type": "audio"
+},
+{
+    "id": 316,
+    "name": "Alexia Nicole Alb - Dragostea mea nu meritai",
+    "theme": "muzică, mp3",
+    "description": "Alexia Nicole Alb - Dragostea mea nu meritai",
+    "streamUrl": "dragosteamea.mp3",
+    "type": "audio"
+},
+{
+    "id": 317,
+    "name": "Giulia - Inimi sigilate",
+    "theme": "muzică, mp3",
+    "description": "Giulia - Inimi sigilate",
+    "streamUrl": "inimisigilate.mp3",
+    "type": "audio"
+},
+{
+    "id": 318,
+    "name": "Florin Pește, Denisa, Play AJ - Inimă de gheață tu ai",
+    "theme": "muzică, mp3",
+    "description": "Florin Pește, Denisa, Play AJ - Inimă de gheață tu ai",
+    "streamUrl": "gheata.mp3",
+    "type": "audio"
+},
+{
+    "id": 319,
+    "name": "Cristian Rizescu, Denisa - Alo tu iubirea mea",
+    "theme": "muzică, mp3",
+    "description": "Cristian Rizescu, Denisa - Alo tu iubirea mea",
+    "streamUrl": "aloiubireamea.mp3",
+    "type": "audio"
+},
+{
+    "id": 320,
+    "name": "Cristian Rizescu, Denisa - Alo tu iubirea mea | Bioxic, XOB3R Remix",
+    "theme": "muzică, mp3",
+    "description": "Cristian Rizescu, Denisa - Alo tu iubirea mea | Bioxic, XOB3R Remix",
+    "streamUrl": "aloiubireamearmx.mp3",
+    "type": "audio"
+},
+{
+    "id": 321,
+    "name": "Cristi Dules - Arde inima",
+    "theme": "muzică, mp3",
+    "description": "Cristi Dules - Arde inima",
+    "streamUrl": "ardeinima.mp3",
+    "type": "audio"
+},
+    {
+        "id": 322,
+        "name": "Nicolae Guță, Blondu de la Timișoara - Fac ce vreau",
+        "theme": "muzică, mp3",
+        "description": "Nicolae Guță, Blondu de la Timișoara - Fac ce vreau",
+        "streamUrl": "faccevreau.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 323,
+        "name": "Nicolae Guță, Albert Guță - Ola Chiquita",
+        "theme": "muzică, mp3",
+        "description": "Nicolae Guță, Albert Guță - Ola Chiquita",
+        "streamUrl": "chiquita.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 324,
+        "name": "Nicolae Guță, Play AJ, Ticy - Cât de bună e nebuna mă",
+        "theme": "muzică, mp3",
+        "description": "Nicolae Guță, Play AJ, Ticy - Cât de bună e nebuna mă",
+        "streamUrl": "catdebuna.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 325,
+        "name": "Alex de la Caracal - Ton de reggaeton",
+        "theme": "muzică, mp3",
+        "description": "Alex de la Caracal - Ton de reggaeton",
+        "streamUrl": "reggaeton.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 326,
+        "name": "Adrian Minune - Chef de chef",
+        "theme": "muzică, mp3",
+        "description": "Adrian Minune - Chef de chef",
+        "streamUrl": "chefdechef.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 327,
+        "name": "Adrian Minune - Ești singura dintre femei",
+        "theme": "muzică, mp3",
+        "streamUrl": "singura.mp3",
+        "type": "audio",
+        "description": "Adrian Minune - Ești singura dintre femei"
+    },
+    {
+        "id": 328,
+        "name": "Florin Salam - Hai cu mine în Bali",
+        "theme": "muzică, mp3",
+        "streamUrl": "bali.mp3",
+        "type": "audio",
+        "description": "Florin Salam - Hai cu mine în Bali"
+    },
+    {
+        "id": 329,
+        "name": "Jean de la Craiova - Te iubesc amor",
+        "theme": "muzică, mp3",
+        "streamUrl": "amor.mp3",
+        "type": "audio",
+        "description": "Jean de la Craiova - Te iubesc amor"
+    },
+    {
+        "id": 330,
+        "name": "ADEVELION 2026 SOUNDTRACK",
+        "theme": "muzică, mp3",
+        "description": "ADEVELION 2026 SOUNDTRACK",
+        "streamUrl": "adevelion2026.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 331,
+        "name": "Nek, ASU, Alessio - De pe marte",
+        "theme": "muzică, mp3",
+        "streamUrl": "marte.mp3",
+        "type": "audio",
+        "description": "Nek, ASU, Alessio - De pe marte"
+    },
+    {
+        "id": 332,
+        "name": "Sorinel Puștiu - Bomba bombelor",
+        "theme": "muzică, mp3",
+        "streamUrl": "bomba.mp3",
+        "type": "audio",
+        "description": "Sorinel Puștiu - Bomba bombelor"
+    },
+    {
+        "id": 333,
+        "name": "Tzanca Uraganu - Bombele",
+        "theme": "muzică, mp3",
+        "streamUrl": "bombeletzu.mp3",
+        "type": "audio",
+        "description": "Tzanca Uraganu - Bombele"
+    },
+    {
+        "id": 334,
+        "name": "Nek, Florin Salam - Îmi fac nebuniile | Everest Remix",
+        "theme": "muzică, mp3",
+        "streamUrl": "nebuniile.mp3",
+        "type": "audio",
+        "description": "Nek, Florin Salam - Îmi fac nebuniile | Everest Remix"
+    },
+    {
+        "id": 335,
+        "name": "Denis M, Everest Manele - De ce ai plecat",
+        "theme": "muzică, mp3",
+        "streamUrl": "deceaiplecat.mp3",
+        "type": "audio",
+        "description": "Denis M, Everest Manele - De ce ai plecat"
+    },
+    {
+        "id": 336,
+        "name": "Theo Rose - A venit poliția",
+        "theme": "muzică, mp3",
+        "streamUrl": "politia.mp3",
+        "type": "audio",
+        "description": "Theo Rose - A venit poliția"
+    },
+    {
+        "id": 337,
+        "name": "Adrian Norocel - Numai femei",
+        "theme": "muzică, mp3",
+        "streamUrl": "femei.mp3",
+        "type": "audio",
+        "description": "Adrian Norocel - Numai femei"
+    },
+    {
+        "id": 338,
+        "name": "Randi - Visător",
+        "theme": "muzică, mp3",
+        "streamUrl": "visator.mp3",
+        "type": "audio",
+        "description": "Randi - Visător"
+    },
+   {
+        "id": 339,
+        "name": "Nicolae Guță - Nu pun banii la saltea | Bioxic, LCO Remix",
+        "theme": "muzică, mp3",
+        "streamUrl": "baniilasaltea.mp3",
+        "type": "audio",
+        "description": "Nicolae Guță - Nu pun banii la saltea | Bioxic, LCO Remix"
+    },
+    {
+        "id": 340,
+        "name": "Jador - Șefa",
+        "theme": "muzică, mp3",
+        "streamUrl": "sefa.mp3",
+        "type": "audio",
+        "description": "Jador - Șefa"
+    },
+    {
+        "id": 341,
+        "name": "Nicolae Guță, Sușanu, Mr Juve, Don Genove - Pariu | Bioxic Remix",
+        "theme": "muzică, mp3",
+        "streamUrl": "pariurmx.mp3",
+        "type": "audio",
+        "description": "Nicolae Guță, Sușanu, Mr Juve, Don Genove - Pariu | Bioxic Remix"
+    },
+    {
+        "id": 342,
+        "name": "Carmen de la Sălciua - Doamne ascultă-mă",
+        "theme": "muzică, mp3",
+        "streamUrl": "doamneascultama.mp3",
+        "type": "audio",
+        "description": "Carmen de la Sălciua - Doamne ascultă-mă"
+    },
+    {
+        "id": 343,
+        "name": "Șușanu - Jagah Jagah",
+        "theme": "muzică, mp3",
+        "streamUrl": "jagah.mp3",
+        "type": "audio",
+        "description": "Șușanu - Jagah Jagah"
+    },
+    {
+        "id": 344,
+        "name": "Nicolae Guță, Florin Salam - 2 inimi s-au îndrăgostit | Bioxic Remix",
+        "theme": "muzică, mp3",
+        "streamUrl": "2inimiindragostit.mp3",
+        "type": "audio",
+        "description": "Nicolae Guță, Florin Salam - 2 inimi s-au îndrăgostit | Bioxic Remix"
+    },
+    {
+        "id": 345,
+        "name": "Alex de la Orăștie, Lorenna - Mașină de fițe",
+        "theme": "muzică, mp3",
+        "streamUrl": "fite.mp3",
+        "type": "audio",
+        "description": "Alex de la Orăștie, Lorenna - Mașină de fițe"
+    },
+    {
+        "id": 346,
+        "name": "Cristian Rizescu - Și ce dacă n-avem bani",
+        "theme": "muzică, mp3",
+        "streamUrl": "nuavembani.mp3",
+        "type": "audio",
+        "description": "Cristian Rizescu - Și ce dacă n-avem bani"
+    },
+    {
+        "id": 347,
+        "name": "Cristian Rizescu - Și ce dacă n-avem bani (portoSYNC Extended)",
+        "theme": "muzică, mp3",
+        "streamUrl": "prtbani.mp3",
+        "type": "audio",
+        "description": "Cristian Rizescu - Și ce dacă n-avem bani (portoSYNC Extended)"
+    },
+    {
+        "id": 348,
+        "name": "Florin Salam - Ia-mă viața mea în brațe",
+        "theme": "muzică, mp3",
+        "streamUrl": "viatamea.mp3",
+        "type": "audio",
+        "description": "Florin Salam - Ia-mă viața mea în brațe"
+    },
+    {
+        "id": 349,
+        "name": "Lunna, Luis Gabriel - Ardem amândoi (În mare goi)",
+        "theme": "muzică, mp3",
+        "streamUrl": "ardem.mp3",
+        "type": "audio",
+        "description": "Lunna, Luis Gabriel - Ardem amândoi (În mare goi)"
+    },
+    {
+        "id": 350,
+        "name": "Cristian Rizescu - Sunt golan, sunt vagabond",
+        "theme": "muzică, mp3",
+        "description": "Cristian Rizescu - Sunt golan, sunt vagabond",
+        "streamUrl": "golan.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 351,
+        "name": "Adrian Norocel - E wow",
+        "theme": "muzică, mp3",
+        "description": "Adrian Norocel - E wow",
+        "streamUrl": "wow.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 352,
+        "name": "Nicolae Guță, Șușanu - Nu mă supărați",
+        "theme": "muzică, mp3",
+        "description": "Nicolae Guță, Șușanu - Nu mă supărați",
+        "streamUrl": "suparati.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 353,
+        "name": "Mr Juve, Katalin Girona - Bagă fata",
+        "theme": "muzică, mp3",
+        "description": "Mr Juve, Katalin Girona - Bagă fata",
+        "streamUrl": "fata.mp3",
+        "type": "audio"
+    },
+    {
+        "id": 354,
+        "name": "Bioxic Mashup",
+        "theme": "muzică, mp3",
+        "streamUrl": "demo.mp3",
+        "type": "audio",
+        "description": "Bioxic Mashup"
+    },
+    {
+        "id": 355,
+        "name": "Edward Maya, LavBbe, Costi - Everybody needs somebody (Eurovision Version)",
+        "theme": "muzică, mp3",
+        "streamUrl": "eurosomebody.mp3",
+        "type": "audio",
+        "description": "Edward Maya, LavBbe, Costi - Everybody needs somebody (Eurovision Version)"
+    },
+    {
+        "id": 356,
+        "name": "Bogdan Gavriș - Fericirea mea",
+        "theme": "muzică, mp3",
+        "streamUrl": "fericire.mp3",
+        "type": "audio",
+        "description": "Bogdan Gavriș - Fericirea mea"
+    },
+    {
+        "id": 357,
+        "name": "Edward Maya, LavBbe, Costi - Everybody needs somebody",
+        "theme": "muzică, mp3",
+        "streamUrl": "somebody.mp3",
+        "type": "audio",
+        "description": "Edward Maya, LavBbe, Costi - Everybody needs somebody"
+    },
+    {
+        "id": 358,
+        "name": "Antonio Pican - Humans",
+        "theme": "muzică, mp3",
+        "streamUrl": "humans.mp3",
+        "type": "audio",
+        "description": "Antonio Pican - Humans"
+    },
+    {
+        "id": 359,
+        "name": "Real Skitt, Bogdan Pîrvu - Planetara",
+        "theme": "muzică, mp3",
+        "streamUrl": "planetara.mp3",
+        "type": "audio",
+        "description": "Real Skitt, Bogdan Pîrvu - Planetara"
+    },
+    {
+        "id": 360,
+        "name": "wrs - All the way",
+        "theme": "muzică, mp3",
+        "streamUrl": "way.mp3",
+        "type": "audio",
+        "description": "wrs - All the way"
+    },
+    {
+        "id": 361,
+        "name": "Florin Salam - Vreau să-mi împart viața doar cu tine",
+        "theme": "muzică, mp3",
+        "streamUrl": "impart.mp3",
+        "type": "audio",
+        "description": "Florin Salam - Vreau să-mi împart viața doar cu tine"
+    },
+    {
+        "id": 362,
+        "name": "Iuly Neamțu - Țigancă de București",
+        "theme": "muzică, mp3",
+        "streamUrl": "tiganca.mp3",
+        "type": "audio",
+        "description": "Iuly Neamțu - Țigancă de București"
+    },
+    {
+        "id": 363,
+        "name": "Leo de la Kuweit - Am bani mulți de tot",
+        "theme": "muzică, mp3",
+        "streamUrl": "banimulti.mp3",
+        "type": "audio",
+        "description": "Leo de la Kuweit - Am bani mulți de tot"
+    },
+    {
+        "id": 364,
+        "name": "Iuly Neamțu - Legenda",
+        "theme": "muzică, mp3",
+        "streamUrl": "legenda.mp3",
+        "type": "audio",
+        "description": "Iuly Neamțu - Legenda"
+    }
+]
