@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PortoSync</title>
+
+<style>
+/* ===== FONT ===== */
+@font-face {
+  font-family: 'PortoSync';
+  src: url('Vodafone-Bold.ttf') format('opentype');
+}
+
+/* ===== GLOBAL ===== */
+* {
+  box-sizing: border-box;
+  font-family: 'PortoSync', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("prtsync-desktopnew.png") no-repeat center center / cover;
+  overflow: hidden;
+  animation: fadeIn 0.6s ease forwards;
+  opacity: 0;
+}
+
+/* ===== BACKGROUND MOBILE ===== */
+@media (max-width: 768px) {
+  body {
+    background: url("prtsync-mobilnew.png") no-repeat center center / cover;
+  }
+}
+
+/* ===== SAFARI iOS FIX ===== */
+@supports (-webkit-touch-callout: none) {
+  body {
+    background: url("prtsync-mobilnew.png") no-repeat center center / cover !important;
+  }
+}
+
+/* ===== GLASS BOX ===== */
+.ui-box {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 50px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.15);
+  animation: slideUp 0.6s ease forwards;
+}
+
+/* ===== TITLE ===== */
+.ui-box h2 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  text-shadow: 0 3px 15px rgba(0,0,0,0.35);
+}
+
+/* ===== LINKS ===== */
+.ui-link {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.7rem 0;
+  border-radius: 18px;
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.3);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.ui-link:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 30px rgba(0,0,0,0.2);
+}
+
+/* ===== MOBILE TWEAK ===== */
+@media (max-width: 480px) {
+  .ui-box {
+    border-radius: 32px;
+    padding: 2rem 1.5rem;
+  }
+
+  .ui-box h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===== ANIM ===== */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+</style>
+</head>
+
+<!-- Default Statcounter code for Porto Player
+https://portoplayerro.free.bg -->
+<script type="text/javascript">
+var sc_project=13174584; 
+var sc_invisible=1; 
+var sc_security="105e3e60"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13174584/0/105e3e60/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+<body>
+
+<div class="ui-box">
+  <h2>Alege Interfața</h2>
+  <a class="ui-link" href="old.html">Old UI</a>
+  <a class="ui-link" href="new.php">New UI</a>
+</div>
+
+</body>
+</html>
