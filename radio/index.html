@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>portoSYNC RADIO</title>
+<link rel="icon" href="radio1-media.png" type="image/png" />
+<link rel="apple-touch-icon" sizes="180x180" href="radio1-media.png">
+
+<style>
+/* ===== FONT ===== */
+@font-face {
+  font-family: 'PortoSync';
+  src: url('SF-Pro-Display-Light.otf') format('opentype');
+}
+
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  font-family: 'PortoSync', sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  margin: 0;
+  min-height: 100dvh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  overflow: hidden;
+}
+
+/* ===== BACKGROUND DESKTOP ===== */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("newbgmarch.png") no-repeat center center / cover;
+  z-index: -1;
+}
+
+/* ===== BACKGROUND MOBILE ===== */
+@media (max-width: 768px) {
+  body::before {
+    background: url("newbgmarch.png") no-repeat center center / cover;
+  }
+}
+
+/* ===== iOS SAFARI FIX ===== */
+@supports (-webkit-touch-callout: none) {
+  body::before {
+    background: url("newbgmarch.png") no-repeat center center / cover !important;
+  }
+}
+
+/* ===== PLAYER ===== */
+.player {
+  width: 100%;
+  max-width: 380px;
+  padding: 26px;
+  border-radius: 36px;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255,255,255,0.35);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer {
+    text-align: center;
+    margin: 10px 0 15px 0; 
+    font-size: 1rem;
+}
+
+/* ===== LOGO ===== */
+#radioLogo {
+  width: 140px;
+  border-radius: 28px;
+  box-shadow: 0 6px 30px rgba(0,0,0,.4);
+}
+
+/* ===== LIVE ===== */
+.live {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+.live span {
+  width: 10px;
+  height: 10px;
+  background: #ff3b3b;
+  border-radius: 50%;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: .6; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ===== INFO ===== */
+.track {
+  text-align: center;
+}
+
+#title {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+#artist {
+  font-size: 0.9rem;
+  opacity: .8;
+}
+
+/* ===== CONTROLS ===== */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #fff;
+  background: rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+input[type=range] {
+  width: 90px;
+}
+
+/* ===== RADIO SWITCH ===== */
+.radio-switch {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.radio-switch button {
+  width: auto;
+  height: auto;
+  padding: 8px 14px;
+  border-radius: 16px;
+  font-size: .85rem;
+}
+</style>
+</head>
+
+<body>
+
+<div class="player">
+
+  <img id="radioLogo" src="radio1.png" alt="Radio">
+
+  <div class="live"><span></span> LIVE</div>
+
+  <div class="track">
+    <div id="title">portoSYNC RADIO</div>
+    <div id="artist">play now</div>
+  </div>
+
+  <div class="controls">
+    <button id="play">▶</button>
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="0.8">
+  </div>
+
+  <div class="radio-switch">
+    <button onclick="selectRadio(0)">portoSYNC RADIO</button>
+    <button onclick="selectRadio(1)">portoSYNC RADIO 2</button>
+    <button onclick="selectRadio(2)">portoSYNC RADIO 3</button>
+    <button onclick="selectRadio(3)">portoSYNC RADIO COLINDE</button>
+<button onclick="selectRadio(4)">portoSYNC RADIO BANAT</button>
+  </div>
+
+  <div class="footer"> făcut de porto cu 🤍 | © 2026, portoSYNC </div>
+
+</div>
+
+<script>
+/* ===== ELEMENTS ===== */
+const playBtn = document.getElementById("play");
+const volume = document.getElementById("volume");
+const titleEl = document.getElementById("title");
+const artistEl = document.getElementById("artist");
+const logoEl = document.getElementById("radioLogo");
+
+/* ===== STATE ===== */
+let audio = null;
+let isPlaying = false;
+let rotateInterval = null;
+let currentRadio = 0;
+
+/* ===== RADIO DATA ===== */
+const radios = [
+  {
+    name: "portoSYNC RADIO",
+    stream: "https://stream-174.zeno.fm/cx6iyynkgzzvv",
+    logo: "radio1.png",
+    mediaLogo: "radio1-media.png"
+  },
+  {
+    name: "portoSYNC RADIO 2",
+    stream: "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
+    logo: "radio2.png",
+    mediaLogo: "radio2-media.png"
+  },
+  {
+    name: "portoSYNC RADIO 3",
+    stream: "https://stream-177.zeno.fm/jmtsijdreecuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqbXRzaWpkcmVlY3V2IiwiaG9zdCI6InN0cmVhbS0xNzcuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjNaRVNMd2J1VGZPRnptckRnWnFrTUEiLCJpYXQiOjE3NjU4OTEwNzEsImV4cCI6MTc2NTg5MTEzMX0.ZQ6OfQbtwy25J_kEvBv2-9DwrWN9yCFRoOAW12L7qcw",
+    logo: "radio3.png",
+    mediaLogo: "radio3-media.png"
+  },
+  {
+    name: "portoSYNC RADIO COLINDE",
+    stream: "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
+    logo: "colinde.png",
+    mediaLogo: "colinde-media.png"
+  },
+  {
+    name: "portoSYNC RADIO BANAT",
+    stream: "https://listen.banatsync.com/populara",
+    logo: "banat.png",
+    mediaLogo: "banat-media.png"
+  },
+];
+
+/* ===== INIT UI ONLY ===== */
+logoEl.src = radios[0].logo;
+titleEl.textContent = radios[0].name;
+
+/* ===== PLAY / PAUSE ===== */
+playBtn.onclick = () => {
+  if (!audio) {
+    audio = new Audio();
+    audio.preload = "none";
+    audio.playsInline = true;
+    audio.volume = volume.value;
+  }
+
+  if (!isPlaying) {
+    audio.src = radios[currentRadio].stream;
+    audio.play();
+
+    isPlaying = true;
+    playBtn.textContent = "⏸";
+
+    startMetadataRotation();
+    updateNowPlaying("LIVE");
+  } else {
+    audio.pause();
+    isPlaying = false;
+    playBtn.textContent = "▶";
+  }
+};
+
+volume.oninput = () => {
+  if (audio) audio.volume = volume.value;
+};
+
+/* ===== SWITCH RADIO ===== */
+function selectRadio(index) {
+  currentRadio = index;
+  logoEl.src = radios[index].logo;
+  titleEl.textContent = radios[index].name;
+
+  if (isPlaying && audio) {
+    audio.src = radios[index].stream;
+    audio.play();
+    updateNowPlaying("LIVE");
+  }
+}
+
+/* ===== MEDIA SESSION ===== */
+function updateNowPlaying(text) {
+  artistEl.textContent = text;
+
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: radios[currentRadio].name,
+      artist: text,
+      album: "LIVE RADIO",
+      artwork: [
+        {
+          src: radios[currentRadio].mediaLogo,
+          sizes: "512x512",
+          type: "image/png"
+        }
+      ]
+    });
+  }
+}
+
+/* ===== ROTATING METADATA ===== */
+function startMetadataRotation() {
+  if (rotateInterval) return;
+
+  const messages = [
+    "listen",
+    "your",
+    "favorite",
+    "hits",
+    "here",
+    "on radio.prtsync.ro"
+  ];
+
+  let i = 0;
+
+  rotateInterval = setInterval(() => {
+    if (isPlaying) {
+      updateNowPlaying(messages[i]);
+      i = (i + 1) % messages.length;
+    }
+  }, 5000);
+}
+</script>
+
+<!-- Statcounter code -->
+<script type="text/javascript">
+var sc_project=13174584; 
+var sc_invisible=1; 
+var sc_security="105e3e60"; 
+</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13174584/0/105e3e60/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
