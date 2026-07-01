@@ -1,8 +1,108 @@
-site facut pe github pentru saracii ca voi :)
+site facut pe github pentru saracii ca noi :)
 
 hostat pe banatsync server, nginx ca asa ne place noua 
 
-PENTRU MIRUNA:
-NU TE OPRI, CĂ POATE VEZI NAIBII FILME CU TINE PE SITE
-
 puteti vedea aici siteul in demo: https://miruna-537e73.lofenta.app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TE IUBESC
+L
+A
+V
+I
+N
+I
+A
+
+TE IUBESC LAVINIA
