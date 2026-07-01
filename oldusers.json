@@ -1,0 +1,191 @@
+[
+    {
+        "username": "porto",
+        "password": "portolegendavn",
+        "displayName": "porto",
+        "avatar": "portosukar.png",
+        "role": "admin"
+    },
+    {
+        "username": "sss2026",
+        "password": "sss",
+        "displayName": "sss",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "alessiolupu",
+        "password": "nerejutv",
+        "displayName": "mr. Aly",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "portoSYNC",
+        "password": "portoSYNC",
+        "displayName": "portoSYNC",
+        "avatar": "PortoSyncfav.png",
+        "role": "admin"
+    },
+    {
+        "username": "prtsyncguest",
+        "password": "guest",
+        "displayName": "#portoSYNCrevine",
+        "avatar": "portosukar.png",
+        "role": "guest"
+    },
+    {
+        "username": "cjevn",
+        "password": "cjevn",
+        "displayName": "Consiliul Județean al Elevilor Vrancea",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "monitorulvn",
+        "password": "monitorulvn",
+        "displayName": "Monitorul de Vrancea",
+        "avatar": null,
+        "role": "admin"
+    },
+    {
+        "username": "g.andra_2503",
+        "password": "andra💕",
+        "displayName": "Andra",
+        "avatar": "553366206_18069696848223551_8357141538561953169_n.jpg",
+        "role": "user"
+    },
+    {
+        "username": "ctim",
+        "password": "ctim",
+        "displayName": "Colegiul Tehnic “Ion Mincu” Focșani",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "ctatv",
+        "password": "ctatv",
+        "displayName": "Colegiul Tehnic Auto “Traian Vuia” Focșani",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "akeno",
+        "password": "akeno",
+        "displayName": "DJ Akeno",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "ctga",
+        "password": "ctga",
+        "displayName": "Colegiul Tehnic “Gheorghe Asachi” Focșani",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "xmedia",
+        "password": "xmedia",
+        "displayName": "XMEDIA",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "cjvn",
+        "password": "cjvn",
+        "displayName": "Consiliul Județean Vrancea",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "mrade",
+        "password": "pula1234",
+        "displayName": "mr. Ade",
+        "avatar": null,
+        "role": "admin"
+    },
+    {
+        "username": "RobertMadalinDobre7",
+        "password": "robertmadalind7",
+        "displayName": "Robert Mădălin Dobre",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "rethi13",
+        "password": "Rethi",
+        "displayName": "Rethi",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "Broadcast",
+        "password": "broadcastro",
+        "displayName": "Broadcast România",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "alex1023",
+        "password": "ztebladea75",
+        "displayName": "Alex Deaconu Archiver",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "cten",
+        "password": "ctenfocsani",
+        "displayName": "Colegiul Tehnic “Edmond Nicolau” Focșani",
+        "avatar": null,
+        "role": "admin"
+    },
+    {
+        "username": "radioteador",
+        "password": "ascultator",
+        "displayName": "Radio Te Ador",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "miruna",
+        "password": "miruna",
+        "displayName": "Miruna",
+        "avatar": "Untitled38_20260112104840.png",
+        "role": "user"
+    },
+    {
+        "username": "b_valentiiinaaa",
+        "password": "Valentina",
+        "displayName": "𝒱",
+        "avatar": "581720667_18094060051883483_7537652991740644877_n.jpg",
+        "role": "user"
+    },
+    {
+        "username": "anarobertax",
+        "password": "Roberta",
+        "displayName": "𝓡👸🏻",
+        "avatar": "588084558_18063581216568298_4701486458834978469_n.jpg",
+        "role": "user"
+    },
+    {
+        "username": "YouFM",
+        "password": "youfm",
+        "displayName": "YouFM",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "welcome@kaufland",
+        "password": "welcome@kaufland",
+        "displayName": "Kaufland România",
+        "avatar": null,
+        "role": "user"
+    },
+    {
+        "username": "andrraasr",
+        "password": "Andra",
+        "displayName": "𝒶𝓃𝒹𝓇𝒶",
+        "avatar": "IMG_0005.jpg",
+        "role": "user"
+    }
+]
