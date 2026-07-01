@@ -1,0 +1,16 @@
+[
+    {
+        "id": 16,
+        "position": 1,
+        "bgType": "gradient",
+        "bgColor": "#ec4899",
+        "bgImage": ""
+    },
+    {
+        "id": 22,
+        "position": 2,
+        "bgType": "gradient",
+        "bgColor": "#ec4899",
+        "bgImage": ""
+    }
+]
