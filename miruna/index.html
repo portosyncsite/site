@@ -1,1 +1,279 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>portoSYNC AUDIO</title>
 
+<style>
+@font-face {
+  font-family: 'PortoSync';
+  src: url('DIGISans-Light.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'PortoSync', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* 🌄 BACKGROUND */
+#bg {
+  position: fixed;
+  inset: 0;
+  background: url("bg1.jpg") center/cover no-repeat;
+  transform: scale(1.05);
+  z-index: -2;
+  transition: 0.5s ease;
+}
+
+#bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.12);
+}
+
+/* 🎧 PLAYER */
+.player {
+  width: 100%;
+  max-width: 420px;
+  padding: 26px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* LIVE */
+.live {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 20px;
+
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+.live span {
+  width: 10px;
+  height: 10px;
+  background: #ff3b3b;
+  border-radius: 50%;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: .6; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* 🖼 LOGO */
+.logo {
+  width: 180px;
+  max-width: 70%;
+  margin: 10px auto 15px;
+  display: block;
+  filter: drop-shadow(0 10px 25px rgba(0,0,0,0.25));
+}
+
+/* 🎛 AUDIO */
+audio {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 12px;
+}
+
+/* 🔘 BUTTONS */
+.buttons {
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 14px;
+  cursor: pointer;
+
+  color: #fff;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+}
+
+/* ⚙️ GEAR */
+.gear {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  z-index: 10;
+}
+
+/* ⚙️ SETTINGS */
+.settings {
+  position: fixed;
+  top: 60px;
+  right: 14px;
+  display: none;
+  flex-direction: column;
+  gap: 8px;
+
+  padding: 14px;
+  border-radius: 16px;
+
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255,255,255,0.3);
+
+  z-index: 20;
+}
+
+.settings button {
+  color: #fff;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 20px;
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+/* OPTIONAL COVER */
+.cover {
+  width: 160px;
+  height: 160px;
+  border-radius: 24px;
+  margin: 10px auto;
+  background: url("cover.jpg") center/cover no-repeat;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+}
+</style>
+</head>
+
+<body>
+
+<div id="bg"></div>
+
+<div class="gear" onclick="toggleSettings()">⚙️</div>
+
+<div class="settings" id="settings">
+  <button onclick="setBg('bg1.jpg')">Default</button>
+  <button onclick="setBg('bg2.jpg')">Soft</button>
+  <button onclick="setBg('bg3.jpg')">Neon</button>
+</div>
+
+<div class="player">
+
+  <div class="live"><span></span> LIVE</div>
+
+  <!-- 🖼 LOGO IN LOC DE TITLU -->
+  <img src="logo.png" class="logo">
+
+  <!-- OPTIONAL COVER -->
+  <div class="cover"></div>
+
+  <!-- NATIV PLAYER -->
+  <audio id="audio" controls></audio>
+
+  <div class="buttons">
+    <button onclick="playTrack(0)">Bulgara 1</button>
+    <button onclick="playTrack(1)">Bulgara 2</button>
+    <button onclick="playTrack(2)">Bulgara 3</button>
+    <button onclick="playTrack(3)">Bulgara 4</button>
+    <button onclick="playTrack(4)">Bulgara 5</button>
+  </div>
+
+  <div class="footer">portoSYNC © 2026</div>
+
+</div>
+
+<script>
+const audio = document.getElementById("audio");
+
+const tracks = [
+  { file: "bulgara1.mp3", title: "Bulgara 1" },
+  { file: "bulgara2.mp3", title: "Bulgara 2" },
+  { file: "bulgara3.mp3", title: "Bulgara 3" },
+  { file: "bulgara4.mp3", title: "Bulgara 4" },
+  { file: "bulgara5.mp3", title: "Bulgara 5" }
+];
+
+const GLOBAL_IMAGE = "cover.jpg";
+
+/* PLAY */
+function playTrack(i) {
+  const track = tracks[i];
+
+  audio.pause();
+  audio.src = track.file;
+  audio.load();
+
+  audio.play().catch(()=>{});
+
+  updateMediaSession(track);
+}
+
+/* MEDIA SESSION */
+function updateMediaSession(track) {
+  if (!('mediaSession' in navigator)) return;
+
+  navigator.mediaSession.metadata = new MediaMetadata({
+    title: track.title,
+    artist: "portoSYNC",
+    album: "AUDIO",
+    artwork: [
+      {
+        src: GLOBAL_IMAGE,
+        sizes: "512x512",
+        type: "image/jpeg"
+      }
+    ]
+  });
+
+  navigator.mediaSession.setActionHandler("play", () => audio.play());
+  navigator.mediaSession.setActionHandler("pause", () => audio.pause());
+}
+
+/* SETTINGS */
+function toggleSettings() {
+  const s = document.getElementById("settings");
+  s.style.display = s.style.display === "flex" ? "none" : "flex";
+}
+
+/* BACKGROUND */
+function setBg(img) {
+  document.getElementById("bg").style.backgroundImage = `url('${img}')`;
+  localStorage.setItem("porto_bg", img);
+}
+
+/* LOAD BG */
+window.addEventListener("load", () => {
+  const saved = localStorage.getItem("porto_bg");
+  if (saved) {
+    document.getElementById("bg").style.backgroundImage = `url('${saved}')`;
+  }
+});
+</script>
+
+</body>
+</html>
