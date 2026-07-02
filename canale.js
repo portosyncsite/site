@@ -2173,10 +2173,8 @@ const channels = [
         "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
         "type": "audio"
     },
-
-    
     {
-        "id": 261,
+        "id": 268,
         "name": "Bytey RADIO",
         "theme": "radio",
         "description": "Bytey RADIO",
@@ -2184,7 +2182,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 262,
+        "id": 269,
         "name": "Bytey RADIO Colinde",
         "theme": "radio",
         "description": "Bytey RADIO Colinde",
@@ -2192,7 +2190,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 263,
+        "id": 270,
         "name": "Pulse RADIO",
         "theme": "radio",
         "description": "Pulse RADIO este un post de radio românesc dedicat muzicii electronice și celor mai fresh hituri.",
@@ -2200,7 +2198,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 264,
+        "id": 271,
         "name": "Pulse MUZFM",
         "theme": "radio",
         "description": "Pulse MUZFM",
@@ -2208,7 +2206,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 265,
+        "id": 272,
         "name": "XATVCFM",
         "theme": "radio",
         "description": "XATVCFM",
@@ -2216,7 +2214,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 266,
+        "id": 273,
         "name": "Radio BanatSync Manele",
         "theme": "radio",
         "streamUrl": "https://listen.banatsync.com/manele",
@@ -2224,7 +2222,7 @@ const channels = [
         "description": "Radio BanatSync Manele"
     },
     {
-        "id": 267,
+        "id": 274,
         "name": "Radio BanatSync Populară",
         "theme": "radio",
         "streamUrl": "https://listen.banatsync.com/populara",
@@ -2232,7 +2230,7 @@ const channels = [
         "description": "Radio BanatSync Populară"
     },
     {
-        "id": 268,
+        "id": 275,
         "name": "Radio BanatSync Dance",
         "theme": "radio",
         "streamUrl": "https://listen.banatsync.com/dance",
@@ -2240,7 +2238,7 @@ const channels = [
         "description": "Radio BanatSync Dance"
     },
     {
-        "id": 269,
+        "id": 276,
         "name": "OLTS Radio",
         "theme": "radio",
         "description": "OLTS Radio e un radio mai altfel, fiind deținută de OLTS.",
@@ -2248,7 +2246,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 270,
+        "id": 277,
         "name": "Broadcast FM",
         "theme": "radio",
         "description": "Broadcast FM este radioul tău de petrecere și de suflet.",
@@ -2256,7 +2254,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 271,
+        "id": 278,
         "name": "Homa",
         "theme": "radio",
         "description": "Homa este un radio de tip electronic, însă are un vibe mai de făcut de acasă.",
@@ -2264,7 +2262,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 272,
+        "id": 279,
         "name": "Epilisium",
         "theme": "radio",
         "description": "Epilisium este canalul de radio cu muzică 24/7 din cadrul companiei portoSYNC.",
@@ -2272,7 +2270,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 273,
+        "id": 280,
         "name": "Epilisium Plus",
         "theme": "radio",
         "description": "Epilisium Plus este radioul care aduce muzică în plus.",
@@ -2280,7 +2278,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 274,
+        "id": 281,
         "name": "Teleaudio",
         "theme": "radio",
         "description": "Teleaudio este radioul tău de suflet.",
@@ -2288,7 +2286,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 275,
+        "id": 282,
         "name": "Teleradio",
         "theme": "radio",
         "description": "Teleradio este radioul tău de petrecere.",
@@ -2296,16 +2294,15 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 276,
+        "id": 283,
         "name": "RadioMix",
         "theme": "radio",
         "description": "RadioMix este radioul tău de petrecere.",
         "streamUrl": "https://stream-172.zeno.fm/fcdm6igj1svtv?zt=eyJhbGciOiJIUzI1NiJ9",
         "type": "audio"
     },
-
 {
-    "id": 277,
+    "id": 284,
     "name": "RadioArt",
     "theme": "radio",
     "description": "RadioArt este radioul tău de petrecere.",
@@ -2313,7 +2310,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 278,
+    "id": 285,
     "name": "RadioArt +",
     "theme": "radio",
     "description": "RadioArt +",
@@ -2321,7 +2318,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 279,
+    "id": 286,
     "name": "RadioArt Disco",
     "theme": "radio",
     "description": "RadioArt Disco",
@@ -2329,7 +2326,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 280,
+    "id": 287,
     "name": "RadioArt Colinde",
     "theme": "radio",
     "description": "RadioArt Colinde",
@@ -2337,7 +2334,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 281,
+    "id": 288,
     "name": "You FM",
     "theme": "radio",
     "description": "You FM este un radio tip CHR, apreciat de Colegiul Tehnic “Edmond Nicolau” Focșani.",
@@ -2345,7 +2342,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 282,
+    "id": 289,
     "name": "Clubradio",
     "theme": "radio",
     "description": "Clubradio este postul de radio dedicat muzicii dance și clubbing, difuzând cele mai tari ritmuri pentru o atmosferă de petrecere non-stop.",
@@ -2353,7 +2350,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 283,
+    "id": 290,
     "name": "Radio Te Ador",
     "theme": "radio",
     "description": "Radio Te Ador e un radio care combină vechiul cu actualul.",
@@ -2361,7 +2358,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 284,
+    "id": 291,
     "name": "Kiss FM",
     "theme": "radio",
     "description": "Kiss FM are o activitate de peste 20 de ani în România. Este #1 în clasamentele de audiență.",
@@ -2369,7 +2366,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 285,
+    "id": 292,
     "name": "Magic FM",
     "theme": "radio",
     "description": "Magic FM este un post de radio dedicat melodiilor clasice, baladelor și muzicii relaxante.",
@@ -2377,7 +2374,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 286,
+    "id": 293,
     "name": "Rock FM",
     "theme": "radio",
     "description": "Rock FM.",
@@ -2385,7 +2382,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 287,
+    "id": 294,
     "name": "Radio ZU",
     "theme": "radio",
     "description": "Radio ZU este un post de radio din România, orientat spre muzică pop, hituri internaționale și emisiuni de divertisment energice.",
@@ -2393,7 +2390,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 288,
+    "id": 295,
     "name": "Focus FM",
     "theme": "radio",
     "description": "Focus FM",
@@ -2401,7 +2398,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 289,
+    "id": 296,
     "name": "DIGI FM",
     "theme": "radio",
     "description": "DIGI FM este un post de radio național din România, parte a grupului DIGI, care oferă programe de știri, muzică și divertisment.",
@@ -2417,16 +2414,15 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 291,
+    "id": 297,
     "name": "PRO FM",
     "theme": "radio",
     "description": "PRO FM",
     "streamUrl": "https://edge126.rcs-rds.ro/profm/profm.mp3",
     "type": "audio"
 },
-
 {
-    "id": 292,
+    "id": 298,
     "name": "Dance FM",
     "theme": "radio",
     "description": "Dance FM",
@@ -2434,7 +2430,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 293,
+    "id": 299,
     "name": "Radio Impuls",
     "theme": "radio",
     "description": "Radio Impuls este un radio de tip mainstream, aparținând de Dogan Media International.",
@@ -2442,13 +2438,15 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 294,
+    "id": 300,
     "name": "Europa FM",
     "theme": "radio",
     "description": "Europa FM este un post de radio național din România, cunoscut pentru muzică actuală, știri de încredere și emisiuni cu audiență largă.",
     "streamUrl": "https://astreaming.edi.ro:8443/europafm_aacp48k",
     "type": "audio"
 },
+
+    
 {
     "id": 295,
     "name": "Virgin Radio",
