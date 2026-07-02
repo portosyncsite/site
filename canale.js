@@ -2406,7 +2406,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 290,
+    "id": 297,
     "name": "DIGI 24 FM",
     "theme": "radio",
     "description": "DIGI 24 FM este postul de radio al rețelei DIGI 24, oferind știri, actualități și analize în timp real.",
@@ -2414,7 +2414,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 297,
+    "id": 298,
     "name": "PRO FM",
     "theme": "radio",
     "description": "PRO FM",
@@ -2422,7 +2422,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 298,
+    "id": 299,
     "name": "Dance FM",
     "theme": "radio",
     "description": "Dance FM",
@@ -2430,7 +2430,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 299,
+    "id": 300,
     "name": "Radio Impuls",
     "theme": "radio",
     "description": "Radio Impuls este un radio de tip mainstream, aparținând de Dogan Media International.",
@@ -2438,17 +2438,15 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 300,
+    "id": 301,
     "name": "Europa FM",
     "theme": "radio",
     "description": "Europa FM este un post de radio național din România, cunoscut pentru muzică actuală, știri de încredere și emisiuni cu audiență largă.",
     "streamUrl": "https://astreaming.edi.ro:8443/europafm_aacp48k",
     "type": "audio"
 },
-
-    
 {
-    "id": 295,
+    "id": 302,
     "name": "Virgin Radio",
     "theme": "radio",
     "description": "Virgin Radio este un post de radio modern din România, axat pe hituri actuale și conținut urban.",
@@ -2456,7 +2454,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 296,
+    "id": 303,
     "name": "Radio Boom",
     "theme": "radio",
     "description": "Este un radio buzoian care emite pe internet. Aparține de TVSat.",
@@ -2464,7 +2462,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 297,
+    "id": 304,
     "name": "Radio Manele",
     "theme": "radio",
     "description": "Radio Manele este un radio de manele TOP, 24/7.",
@@ -2472,7 +2470,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 298,
+    "id": 305,
     "name": "Radio 1 Manele",
     "theme": "radio, manele",
     "description": "Radio 1 Manele este un radio de manele unic.",
@@ -2480,7 +2478,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 299,
+    "id": 306,
     "name": "Radio Trinitas",
     "theme": "radio, religios",
     "description": "Radio Trinitas este postul de radio al Patriarhiei Române, cu programe religioase, culturale și educative în spirit creștin-ortodox.",
@@ -2488,7 +2486,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 300,
+    "id": 307,
     "name": "Denisa - Inimă nu-mi spune tu",
     "theme": "muzică, mp3",
     "streamUrl": "inimadenisa.mp3",
@@ -2496,7 +2494,7 @@ const channels = [
     "description": "Denisa - Inimă nu-mi spune tu"
 },
 {
-    "id": 301,
+    "id": 308,
     "name": "Bogdan Pîrvu - Am să plâng pentru tot ce am trăit | Bioxic Remix",
     "theme": "muzică, mp3",
     "description": "Bogdan Pîrvu - Am să plâng pentru tot ce am trăit | Bioxic Remix",
@@ -2504,7 +2502,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 302,
+    "id": 309,
     "name": "Ticy, Denisa - Fac orice",
     "theme": "muzică, mp3",
     "description": "Ticy, Denisa - Fac orice",
@@ -2512,7 +2510,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 303,
+    "id": 310,
     "name": "Alexandra Cotruș - Lady Boss",
     "theme": "muzică, mp3",
     "description": "Alexandra Cotruș - Lady Boss",
@@ -2520,7 +2518,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 304,
+    "id": 311,
     "name": "Alexandra Cotruș - Lady Boss | Porto Remix",
     "theme": "muzică, mp3",
     "description": "Alexandra Cotruș - Lady Boss | Porto Remix",
@@ -2528,7 +2526,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 305,
+    "id": 312,
     "name": "Denisa - Eu te iubesc | Everest Remix",
     "theme": "muzică, mp3",
     "description": "Denisa - Eu te iubesc | Everest Remix",
@@ -2536,7 +2534,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 306,
+    "id": 313,
     "name": "Babi Minune - Sărac sau rege",
     "theme": "muzică, mp3",
     "description": "Babi Minune - Sărac sau rege",
@@ -2544,7 +2542,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 307,
+    "id": 314,
     "name": "Kali - Kato te pochna",
     "theme": "muzică, mp3",
     "description": "Kali - Kato te pochna",
@@ -2552,7 +2550,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 308,
+    "id": 315,
     "name": "Claudia, Asu, Ticy - Zalele",
     "theme": "muzică, mp3",
     "description": "Claudia, Asu, Ticy - Zalele",
@@ -2560,7 +2558,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 309,
+    "id": 316,
     "name": "Babi Minune - Inimă de Țigan",
     "theme": "muzică, mp3",
     "description": "Babi Minune - Inimă de Țigan",
@@ -2568,7 +2566,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 310,
+    "id": 317,
     "name": "Florin Salam, Mr. Juve - Sanki Sanki",
     "theme": "muzică, mp3",
     "description": "Florin Salam, Mr. Juve - Sanki Sanki",
@@ -2576,7 +2574,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 311,
+    "id": 318,
     "name": "Mr. Juve, Cristinel - Bagă dans frumos",
     "theme": "muzică, mp3",
     "description": "Mr. Juve, Cristinel - Bagă dans frumos",
@@ -2584,7 +2582,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 312,
+    "id": 319,
     "name": "AlbertNBN, Marius Babanu - Arăboaica alarmantă | CRX, Everest Mashup",
     "theme": "muzică, mp3",
     "description": "AlbertNBN, Marius Babanu - Arăboaica alarmantă | CRX, Everest Mashup",
@@ -2592,7 +2590,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 313,
+    "id": 320,
     "name": "Florin Salam, Raluca Drăgoi - Nebunia anului",
     "theme": "muzică, mp3",
     "description": "Florin Salam, Raluca Drăgoi - Nebunia anului",
@@ -2600,7 +2598,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 314,
+    "id": 321,
     "name": "Costel Ciofu, Leonard - Toți banii din lume",
     "theme": "muzică, mp3",
     "description": "Costel Ciofu, Leonard - Toți banii din lume",
@@ -2608,7 +2606,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 315,
+    "id": 322,
     "name": "Jean de la Craiova, Mădălina - Beyonce de România",
     "theme": "muzică, mp3",
     "description": "Jean de la Craiova, Mădălina - Beyonce de România",
@@ -2616,7 +2614,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 316,
+    "id": 323,
     "name": "Irina Loghin - Valea Prahovei | DJD Remix",
     "theme": "muzică, mp3",
     "description": "Irina Loghin - Valea Prahovei | DJD Remix",
@@ -2624,7 +2622,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 317,
+    "id": 324,
     "name": "Tzanca Uraganu - Dansezi de 60 de minute",
     "theme": "muzică, mp3",
     "description": "Tzanca Uraganu - Dansezi de 60 de minute",
@@ -2632,7 +2630,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 318,
+    "id": 325,
     "name": "Cătălin Arabu’, Minodora - Întoarce-te în viața mea",
     "theme": "muzică, mp3",
     "description": "Cătălin Arabu’, Minodora - Întoarce-te în viața mea",
@@ -2640,16 +2638,15 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 319,
+    "id": 326,
     "name": "Florin Salam, Denisa - Iubire iartă-mă | Everest Remix",
     "theme": "muzică, mp3",
     "description": "Florin Salam, Denisa - Iubire iartă-mă | Everest Remix",
     "streamUrl": "iubireeverest.mp3",
     "type": "audio"
 },
-
 {
-    "id": 320,
+    "id": 327,
     "name": "Florin Salam, Blondu de la Timișoara - Apasă pe sufletul meu | Bioxic Mashup",
     "theme": "muzică, mp3",
     "description": "Florin Salam, Blondu de la Timișoara - Apasă pe sufletul meu | Bioxic Mashup",
@@ -2657,7 +2654,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 321,
+    "id": 328,
     "name": "Ionuț Ene - Cum se aude gagică-ta",
     "theme": "muzică, mp3",
     "description": "Ionuț Ene - Cum se aude gagică-ta",
@@ -2665,7 +2662,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 322,
+    "id": 329,
     "name": "Claudia, Play AJ - Îți dau numărul meu pe mess | Bioxic Remix",
     "theme": "muzică, mp3",
     "description": "Claudia, Play AJ - Îți dau numărul meu pe mess | Bioxic Remix",
@@ -2673,7 +2670,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 323,
+    "id": 330,
     "name": "Florin Salam, Frații Turcitu - Alo România",
     "theme": "muzică, mp3",
     "description": "Florin Salam, Frații Turcitu - Alo România",
@@ -2681,7 +2678,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 324,
+    "id": 331,
     "name": "Denis Rămînceanu - Tăgădăm paș paș | EVM Remix",
     "theme": "muzică, mp3",
     "description": "Denis Rămînceanu - Tăgădăm paș paș | EVM Remix",
@@ -2689,7 +2686,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 325,
+    "id": 332,
     "name": "Florin Salam - 7 Zile | Bioxic Remix",
     "theme": "muzică, mp3",
     "description": "Florin Salam - 7 Zile | Bioxic Remix",
@@ -2697,7 +2694,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 326,
+    "id": 333,
     "name": "Real Skitt - Colindul Vagabonților",
     "theme": "muzică, mp3",
     "description": "Real Skitt - Colindul Vagabonților",
@@ -2705,7 +2702,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 327,
+    "id": 334,
     "name": "Real Skitt, Marinică Piticu - Colindul Vagabonților 2",
     "theme": "muzică, mp3",
     "description": "Real Skitt, Marinică Piticu - Colindul Vagabonților 2",
@@ -2713,7 +2710,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 328,
+    "id": 335,
     "name": "Real Skitt, Marinică Piticu - Colindul Vagabonților 3",
     "theme": "muzică, mp3",
     "description": "Real Skitt, Marinică Piticu - Colindul Vagabonților 3",
@@ -2721,7 +2718,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 329,
+    "id": 336,
     "name": "Armin Nicoară - Instrumentala lui Armin",
     "theme": "muzică, mp3",
     "description": "Armin Nicoară - Instrumentala lui Armin",
@@ -2729,7 +2726,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 330,
+    "id": 337,
     "name": "B.U.G. Mafia, MOZA KALIZA - Au!",
     "theme": "muzică, mp3",
     "description": "B.U.G. Mafia, MOZA KALIZA - Au!",
@@ -2737,7 +2734,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 331,
+    "id": 338,
     "name": "Real Skitt, Marinică Piticu - Sistemul Thoia Thoing",
     "theme": "muzică, mp3",
     "description": "Real Skitt, Marinică Piticu - Sistemul Thoia Thoing",
@@ -2745,7 +2742,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 332,
+    "id": 339,
     "name": "Șușanu - I-auzi ia",
     "theme": "muzică, mp3",
     "description": "Șușanu - I-auzi ia",
@@ -2753,7 +2750,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 333,
+    "id": 340,
     "name": "Nicolae Guță, Șușanu - Puștoiaco cu păr roșcat (CD Version)",
     "theme": "muzică, mp3",
     "description": "Nicolae Guță, Șușanu - Puștoiaco cu păr roșcat (CD Version)",
@@ -2761,7 +2758,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 334,
+    "id": 341,
     "name": "Nicolae Guță - Cine te iubește",
     "theme": "muzică, mp3",
     "description": "Nicolae Guță - Cine te iubește",
@@ -2769,7 +2766,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 335,
+    "id": 342,
     "name": "Nicolae Guță - Cine te iubește | Everest Remix",
     "theme": "muzică, mp3",
     "description": "Nicolae Guță - Cine te iubește | Everest Remix",
@@ -2777,7 +2774,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 336,
+    "id": 343,
     "name": "Bairam - Alladin",
     "theme": "muzică, mp3",
     "description": "Bairam - Alladin",
@@ -2785,7 +2782,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 337,
+    "id": 344,
     "name": "Claudia - Și mi-e dor",
     "theme": "muzică, mp3",
     "description": "Claudia - Și mi-e dor",
@@ -2793,7 +2790,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 338,
+    "id": 345,
     "name": "Asu, Ionuț Prințu - Te iubesc din Corason",
     "theme": "muzică, mp3",
     "description": "Asu, Ionuț Prințu - Te iubesc din Corason",
@@ -2801,7 +2798,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 339,
+    "id": 346,
     "name": "Nicușor Guță - Nu vreau răzbunare",
     "theme": "muzică, mp3",
     "description": "Nicușor Guță - Nu vreau răzbunare",
@@ -2809,7 +2806,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 340,
+    "id": 347,
     "name": "Florin Bora, Sică de la Oltenița - Sistemul Balmain",
     "theme": "muzică, mp3",
     "description": "Florin Bora, Sică de la Oltenița - Sistemul Balmain",
@@ -2817,7 +2814,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 341,
+    "id": 348,
     "name": "Denisa, Leo de la Roșiori - Cât ar jura inima mea | Bioxic Mashup",
     "theme": "muzică, mp3",
     "description": "Denisa, Leo de la Roșiori - Cât ar jura inima mea | Bioxic Mashup",
@@ -2825,7 +2822,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 342,
+    "id": 349,
     "name": "Florin Salam, Oana - La orice pas",
     "theme": "muzică, mp3",
     "description": "Florin Salam, Oana - La orice pas",
@@ -2833,7 +2830,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 343,
+    "id": 350,
     "name": "Florin Salam, Oana - La orice pas | Bioxic Remix",
     "theme": "muzică, mp3",
     "description": "Florin Salam, Oana - La orice pas | Bioxic Remix",
@@ -2841,7 +2838,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 344,
+    "id": 351,
     "name": "Denisa - Clipele frumoase și senine",
     "theme": "muzică, mp3",
     "description": "Denisa - Clipele frumoase și senine",
@@ -2849,7 +2846,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 345,
+    "id": 352,
     "name": "Denisa - Clipele frumoase și senine | Porto, DJ Vasile, Sufletul Manelelor, ovou Remix",
     "theme": "muzică, mp3",
     "description": "Denisa - Clipele frumoase și senine | Porto, DJ Vasile, Sufletul Manelelor, ovou Remix",
@@ -2857,7 +2854,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 346,
+    "id": 353,
     "name": "Geany Morandi - Vreau să te văd fericită | Remix",
     "theme": "muzică, mp3",
     "description": "Geany Morandi - Vreau să te văd fericită | Remix",
@@ -2865,7 +2862,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 347,
+    "id": 354,
     "name": "Alexia Nicole Alb - Dragostea mea nu meritai",
     "theme": "muzică, mp3",
     "description": "Alexia Nicole Alb - Dragostea mea nu meritai",
@@ -2873,7 +2870,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 348,
+    "id": 355,
     "name": "Giulia - Inimi sigilate",
     "theme": "muzică, mp3",
     "description": "Giulia - Inimi sigilate",
@@ -2881,7 +2878,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 349,
+    "id": 356,
     "name": "Florin Pește, Denisa, Play AJ - Inimă de gheață tu ai",
     "theme": "muzică, mp3",
     "description": "Florin Pește, Denisa, Play AJ - Inimă de gheață tu ai",
@@ -2889,7 +2886,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 350,
+    "id": 357,
     "name": "Cristian Rizescu, Denisa - Alo tu iubirea mea",
     "theme": "muzică, mp3",
     "description": "Cristian Rizescu, Denisa - Alo tu iubirea mea",
@@ -2897,7 +2894,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 351,
+    "id": 358,
     "name": "Cristian Rizescu, Denisa - Alo tu iubirea mea | Bioxic, XOB3R Remix",
     "theme": "muzică, mp3",
     "description": "Cristian Rizescu, Denisa - Alo tu iubirea mea | Bioxic, XOB3R Remix",
@@ -2905,7 +2902,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 352,
+    "id": 359,
     "name": "Cristi Dules - Arde inima",
     "theme": "muzică, mp3",
     "description": "Cristi Dules - Arde inima",
@@ -2913,7 +2910,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 353,
+    "id": 360,
     "name": "Nicolae Guță, Blondu de la Timișoara - Fac ce vreau",
     "theme": "muzică, mp3",
     "description": "Nicolae Guță, Blondu de la Timișoara - Fac ce vreau",
@@ -2921,7 +2918,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 354,
+    "id": 361,
     "name": "Nicolae Guță, Albert Guță - Ola Chiquita",
     "theme": "muzică, mp3",
     "description": "Nicolae Guță, Albert Guță - Ola Chiquita",
@@ -2929,7 +2926,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 355,
+    "id": 362,
     "name": "Nicolae Guță, Play AJ, Ticy - Cât de bună e nebuna mă",
     "theme": "muzică, mp3",
     "description": "Nicolae Guță, Play AJ, Ticy - Cât de bună e nebuna mă",
@@ -2937,7 +2934,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 356,
+    "id": 363,
     "name": "Alex de la Caracal - Ton de reggaeton",
     "theme": "muzică, mp3",
     "description": "Alex de la Caracal - Ton de reggaeton",
@@ -2945,7 +2942,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 357,
+    "id": 364,
     "name": "Adrian Minune - Chef de chef",
     "theme": "muzică, mp3",
     "description": "Adrian Minune - Chef de chef",
@@ -2953,7 +2950,7 @@ const channels = [
     "type": "audio"
 },
 {
-    "id": 358,
+    "id": 365,
     "name": "Adrian Minune - Ești singura dintre femei",
     "theme": "muzică, mp3",
     "streamUrl": "singura.mp3",
@@ -2961,7 +2958,7 @@ const channels = [
     "description": "Adrian Minune - Ești singura dintre femei"
 },
 {
-    "id": 359,
+    "id": 366,
     "name": "Florin Salam - Hai cu mine în Bali",
     "theme": "muzică, mp3",
     "streamUrl": "bali.mp3",
@@ -2969,7 +2966,7 @@ const channels = [
     "description": "Florin Salam - Hai cu mine în Bali"
 },
 {
-    "id": 360,
+    "id": 367,
     "name": "Jean de la Craiova - Te iubesc amor",
     "theme": "muzică, mp3",
     "streamUrl": "amor.mp3",
@@ -2977,7 +2974,7 @@ const channels = [
     "description": "Jean de la Craiova - Te iubesc amor"
 },
 {
-    "id": 361,
+    "id": 368,
     "name": "Nek, ASU, Alessio - De pe marte",
     "theme": "muzică, mp3",
     "streamUrl": "marte.mp3",
@@ -2985,7 +2982,7 @@ const channels = [
     "description": "Nek, ASU, Alessio - De pe marte"
 },
 {
-    "id": 362,
+    "id": 369,
     "name": "Sorinel Puștiu - Bomba bombelor",
     "theme": "muzică, mp3",
     "streamUrl": "bomba.mp3",
@@ -2993,7 +2990,7 @@ const channels = [
     "description": "Sorinel Puștiu - Bomba bombelor"
 },
 {
-    "id": 363,
+    "id": 370,
     "name": "Tzanca Uraganu - Bombele",
     "theme": "muzică, mp3",
     "streamUrl": "bombeletzu.mp3",
@@ -3001,7 +2998,7 @@ const channels = [
     "description": "Tzanca Uraganu - Bombele"
 },
 {
-    "id": 364,
+    "id": 371,
     "name": "Nek, Florin Salam - Îmi fac nebuniile | Everest Remix",
     "theme": "muzică, mp3",
     "streamUrl": "nebuniile.mp3",
@@ -3009,7 +3006,7 @@ const channels = [
     "description": "Nek, Florin Salam - Îmi fac nebuniile | Everest Remix"
 },
 {
-    "id": 365,
+    "id": 372,
     "name": "Denis M, Everest Manele - De ce ai plecat",
     "theme": "muzică, mp3",
     "streamUrl": "deceaiplecat.mp3",
@@ -3017,7 +3014,7 @@ const channels = [
     "description": "Denis M, Everest Manele - De ce ai plecat"
 },
 {
-    "id": 366,
+    "id": 373,
     "name": "Theo Rose - A venit poliția",
     "theme": "muzică, mp3",
     "streamUrl": "politia.mp3",
@@ -3025,7 +3022,7 @@ const channels = [
     "description": "Theo Rose - A venit poliția"
 },
 {
-    "id": 367,
+    "id": 374,
     "name": "Adrian Norocel - Numai femei",
     "theme": "muzică, mp3",
     "streamUrl": "femei.mp3",
@@ -3033,7 +3030,7 @@ const channels = [
     "description": "Adrian Norocel - Numai femei"
 },
 {
-    "id": 368,
+    "id": 375,
     "name": "Randi - Visător",
     "theme": "muzică, mp3",
     "streamUrl": "visator.mp3",
@@ -3041,7 +3038,7 @@ const channels = [
     "description": "Randi - Visător"
 },
 {
-    "id": 369,
+    "id": 376,
     "name": "Nicolae Guță - Nu pun banii la saltea | Bioxic, LCO Remix",
     "theme": "muzică, mp3",
     "streamUrl": "baniilasaltea.mp3",
@@ -3049,16 +3046,15 @@ const channels = [
     "description": "Nicolae Guță - Nu pun banii la saltea | Bioxic, LCO Remix"
 },
 {
-    "id": 370,
+    "id": 377,
     "name": "Jador - Șefa",
     "theme": "muzică, mp3",
     "streamUrl": "sefa.mp3",
     "type": "audio",
     "description": "Jador - Șefa"
 },
-
 {
-    "id": 371,
+    "id": 378,
     "name": "Nicolae Guță, Sușanu, Mr Juve, Don Genove - Pariu | Bioxic Remix",
     "theme": "muzică, mp3",
     "streamUrl": "pariurmx.mp3",
@@ -3066,7 +3062,7 @@ const channels = [
     "description": "Nicolae Guță, Sușanu, Mr Juve, Don Genove - Pariu | Bioxic Remix"
 },
 {
-    "id": 372,
+    "id": 379,
     "name": "Carmen de la Sălciua - Doamne ascultă-mă",
     "theme": "muzică, mp3",
     "streamUrl": "doamneascultama.mp3",
@@ -3074,7 +3070,7 @@ const channels = [
     "description": "Carmen de la Sălciua - Doamne ascultă-mă"
 },
 {
-    "id": 373,
+    "id": 380,
     "name": "Șușanu - Jagah Jagah",
     "theme": "muzică, mp3",
     "streamUrl": "jagah.mp3",
@@ -3082,7 +3078,7 @@ const channels = [
     "description": "Șușanu - Jagah Jagah"
 },
 {
-    "id": 374,
+    "id": 381,
     "name": "Nicolae Guță, Florin Salam - 2 inimi s-au îndrăgostit | Bioxic Remix",
     "theme": "muzică, mp3",
     "streamUrl": "2inimiindragostit.mp3",
@@ -3090,7 +3086,7 @@ const channels = [
     "description": "Nicolae Guță, Florin Salam - 2 inimi s-au îndrăgostit | Bioxic Remix"
 },
 {
-    "id": 375,
+    "id": 382,
     "name": "Alex de la Orăștie, Lorenna - Mașină de fițe",
     "theme": "muzică, mp3",
     "streamUrl": "fite.mp3",
@@ -3098,7 +3094,7 @@ const channels = [
     "description": "Alex de la Orăștie, Lorenna - Mașină de fițe"
 },
 {
-    "id": 376,
+    "id": 383,
     "name": "Cristian Rizescu - Și ce dacă n-avem bani",
     "theme": "muzică, mp3",
     "streamUrl": "nuavembani.mp3",
@@ -3106,7 +3102,7 @@ const channels = [
     "description": "Cristian Rizescu - Și ce dacă n-avem bani"
 },
 {
-    "id": 377,
+    "id": 384,
     "name": "Cristian Rizescu - Și ce dacă n-avem bani (portoSYNC Extended)",
     "theme": "muzică, mp3",
     "streamUrl": "prtbani.mp3",
@@ -3114,7 +3110,7 @@ const channels = [
     "description": "Cristian Rizescu - Și ce dacă n-avem bani (portoSYNC Extended)"
 },
 {
-    "id": 378,
+    "id": 385,
     "name": "Florin Salam - Ia-mă viața mea în brațe",
     "theme": "muzică, mp3",
     "streamUrl": "viatamea.mp3",
@@ -3122,7 +3118,7 @@ const channels = [
     "description": "Florin Salam - Ia-mă viața mea în brațe"
 },
 {
-    "id": 379,
+    "id": 386,
     "name": "Lunna, Luis Gabriel - Ardem amândoi (În mare goi)",
     "theme": "muzică, mp3",
     "streamUrl": "ardem.mp3",
@@ -3130,16 +3126,15 @@ const channels = [
     "description": "Lunna, Luis Gabriel - Ardem amândoi (În mare goi)"
 },
 {
-    "id": 380,
+    "id": 387,
     "name": "Cristian Rizescu - Sunt golan, sunt vagabond",
     "theme": "muzică, mp3",
     "streamUrl": "golan.mp3",
     "type": "audio",
     "description": "Cristian Rizescu - Sunt golan, sunt vagabond"
 },
-
 {
-    "id": 381,
+    "id": 388,
     "name": "Adrian Norocel - E wow",
     "theme": "muzică, mp3",
     "streamUrl": "wow.mp3",
@@ -3147,7 +3142,7 @@ const channels = [
     "description": "Adrian Norocel - E wow"
 },
 {
-    "id": 382,
+    "id": 389,
     "name": "Nicolae Guță, Șușanu - Nu mă supărați",
     "theme": "muzică, mp3",
     "streamUrl": "suparati.mp3",
@@ -3155,7 +3150,7 @@ const channels = [
     "description": "Nicolae Guță, Șușanu - Nu mă supărați"
 },
 {
-    "id": 383,
+    "id": 390,
     "name": "Mr Juve, Katalin Girona - Bagă fata",
     "theme": "muzică, mp3",
     "streamUrl": "fata.mp3",
@@ -3163,7 +3158,7 @@ const channels = [
     "description": "Mr Juve, Katalin Girona - Bagă fata"
 },
 {
-    "id": 384,
+    "id": 391,
     "name": "Bioxic Mashup",
     "theme": "muzică, mp3",
     "streamUrl": "demo.mp3",
@@ -3171,7 +3166,7 @@ const channels = [
     "description": "Bioxic Mashup"
 },
 {
-    "id": 385,
+    "id": 392,
     "name": "Edward Maya, LavBbe, Costi - Everybody needs somebody (Eurovision Version)",
     "theme": "muzică, mp3",
     "streamUrl": "eurosomebody.mp3",
@@ -3179,7 +3174,7 @@ const channels = [
     "description": "Edward Maya, LavBbe, Costi - Everybody needs somebody (Eurovision Version)"
 },
 {
-    "id": 386,
+    "id": 393,
     "name": "Bogdan Gavriș - Fericirea mea",
     "theme": "muzică, mp3",
     "streamUrl": "fericire.mp3",
@@ -3187,7 +3182,7 @@ const channels = [
     "description": "Bogdan Gavriș - Fericirea mea"
 },
 {
-    "id": 387,
+    "id": 394,
     "name": "Edward Maya, LavBbe, Costi - Everybody needs somebody",
     "theme": "muzică, mp3",
     "streamUrl": "somebody.mp3",
@@ -3195,7 +3190,7 @@ const channels = [
     "description": "Edward Maya, LavBbe, Costi - Everybody needs somebody"
 },
 {
-    "id": 388,
+    "id": 395,
     "name": "Antonio Pican - Humans",
     "theme": "muzică, mp3",
     "streamUrl": "humans.mp3",
@@ -3203,7 +3198,7 @@ const channels = [
     "description": "Antonio Pican - Humans"
 },
 {
-    "id": 389,
+    "id": 396,
     "name": "Real Skitt, Bogdan Pîrvu - Planetara",
     "theme": "muzică, mp3",
     "streamUrl": "planetara.mp3",
@@ -3211,7 +3206,7 @@ const channels = [
     "description": "Real Skitt, Bogdan Pîrvu - Planetara"
 },
 {
-    "id": 390,
+    "id": 397,
     "name": "wrs - All the way",
     "theme": "muzică, mp3",
     "streamUrl": "way.mp3",
@@ -3219,7 +3214,7 @@ const channels = [
     "description": "wrs - All the way"
 },
 {
-    "id": 391,
+    "id": 398,
     "name": "Florin Salam - Vreau să-mi împart viața doar cu tine",
     "theme": "muzică, mp3",
     "streamUrl": "impart.mp3",
@@ -3227,7 +3222,7 @@ const channels = [
     "description": "Florin Salam - Vreau să-mi împart viața doar cu tine"
 },
 {
-    "id": 392,
+    "id": 399,
     "name": "Iuly Neamțu - Țigancă de București",
     "theme": "muzică, mp3",
     "streamUrl": "tiganca.mp3",
@@ -3235,7 +3230,7 @@ const channels = [
     "description": "Iuly Neamțu - Țigancă de București"
 },
 {
-    "id": 393,
+    "id": 400,
     "name": "Leo de la Kuweit - Am bani mulți de tot",
     "theme": "muzică, mp3",
     "streamUrl": "banimulti.mp3",
@@ -3243,7 +3238,7 @@ const channels = [
     "description": "Leo de la Kuweit - Am bani mulți de tot"
 },
 {
-    "id": 394,
+    "id": 401,
     "name": "Iuly Neamțu - Legenda",
     "theme": "muzică, mp3",
     "streamUrl": "legenda.mp3",
@@ -3251,7 +3246,7 @@ const channels = [
     "description": "Iuly Neamțu - Legenda"
 },
 {
-    "id": 395,
+    "id": 402,
     "name": "Dharia - Sugar & Brownies",
     "theme": "muzică, mp3",
     "streamUrl": "sugar.mp3",
@@ -3259,7 +3254,7 @@ const channels = [
     "description": "Dharia - Sugar & Brownies"
 },
 {
-    "id": 396,
+    "id": 403,
     "name": "Petrică Cercel - Plătesc pentru plăcerea mea",
     "theme": "muzică, mp3",
     "streamUrl": "placerea.mp3",
@@ -3267,7 +3262,7 @@ const channels = [
     "description": "Petrică Cercel - Plătesc pentru plăcerea mea"
 },
 {
-    "id": 397,
+    "id": 404,
     "name": "Petrică Cercel - Dacă plouă, nu mă plouă",
     "theme": "muzică, mp3",
     "streamUrl": "ploua.mp3",
@@ -3275,7 +3270,7 @@ const channels = [
     "description": "Petrică Cercel - Dacă plouă, nu mă plouă"
 },
 {
-    "id": 398,
+    "id": 405,
     "name": "Fly Project - Get Wet",
     "theme": "muzică, mp3",
     "streamUrl": "getwet.mp3",
@@ -3283,7 +3278,7 @@ const channels = [
     "description": "Fly Project - Get Wet"
 },
 {
-    "id": 399,
+    "id": 406,
     "name": "Jean de la Craiova - O mie de vieți",
     "theme": "muzică, mp3",
     "streamUrl": "omie.mp3",
@@ -3291,7 +3286,7 @@ const channels = [
     "description": "Jean de la Craiova - O mie de vieți"
 },
 {
-    "id": 400,
+    "id": 407,
     "name": "Prințu de la Cluj - Toma tapa",
     "theme": "muzică, mp3",
     "streamUrl": "tomatapa.mp3",
@@ -3299,7 +3294,7 @@ const channels = [
     "description": "Prințu de la Cluj - Toma tapa"
 },
 {
-    "id": 401,
+    "id": 408,
     "name": "Costi Ioniță - Barul pe dos",
     "theme": "muzică, mp3",
     "streamUrl": "dos.mp3",
@@ -3307,7 +3302,7 @@ const channels = [
     "description": "Costi Ioniță - Barul pe dos"
 },
 {
-    "id": 402,
+    "id": 409,
     "name": "Jean de la Craiova - Hola la",
     "theme": "muzică, mp3",
     "streamUrl": "holala.mp3",
@@ -3315,7 +3310,7 @@ const channels = [
     "description": "Jean de la Craiova - Hola la"
 },
 {
-    "id": 403,
+    "id": 410,
     "name": "Florin Minune - Ți-am jurat iubire",
     "theme": "muzică, mp3",
     "streamUrl": "otrava.mp3",
@@ -3323,7 +3318,7 @@ const channels = [
     "description": "Florin Minune - Ți-am jurat iubire"
 },
 {
-    "id": 404,
+    "id": 411,
     "name": "ADEVELION 2025: HIGHLIGHTS",
     "theme": "special, adevelion",
     "streamUrl": "adevelion25moments.mp4",
@@ -3331,7 +3326,7 @@ const channels = [
     "description": "ADEVELION 2025: HIGHLIGHTS"
 },
 {
-    "id": 405,
+    "id": 412,
     "name": "ADEVELION 2026: SOUNDTRACK",
     "theme": "special, adevelion, muzică, mp3",
     "streamUrl": "adevelion2026.mp3",
@@ -3339,7 +3334,7 @@ const channels = [
     "description": "ADEVELION 2026: SOUNDTRACK"
 },
 {
-    "id": 406,
+    "id": 413,
     "name": "ADEVELION 2026: Revelionul care face diferența",
     "theme": "special, adevelion",
     "streamUrl": "adevelion26.mp4",
@@ -3347,7 +3342,7 @@ const channels = [
     "description": "ADEVELION 2026: Revelionul care face diferența"
 },
 {
-    "id": 407,
+    "id": 414,
     "name": "ADEVELION 2026: HIGHLIGHTS",
     "theme": "special, adevelion",
     "streamUrl": "adevelion26moments.mp4",
@@ -3355,7 +3350,7 @@ const channels = [
     "description": "ADEVELION 2026: HIGHLIGHTS"
 },
 {
-    "id": 408,
+    "id": 415,
     "name": "Trăiască PSD-ul",
     "theme": "special",
     "streamUrl": "psd.mp4",
@@ -3363,7 +3358,7 @@ const channels = [
     "description": "Trăiască PSD-ul"
 },
 {
-    "id": 409,
+    "id": 416,
     "name": "Alegeri 2025 - TURUL 1",
     "theme": "special",
     "streamUrl": "turu1.mp4",
