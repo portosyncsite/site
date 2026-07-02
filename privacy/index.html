@@ -1,1 +1,248 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>portoSYNC Privacy</title>
+
+<style>
+
+@font-face {
+  font-family: 'PortoSyncMedium';
+  src: url('https://prtsync.ro/AeonikProRegular.ttf') format('truetype');
+}
+
+*{
+box-sizing:border-box;
+font-family:'PortoSyncMedium';
+}
+
+a{
+color:white;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+opacity:0.8;
+}
+
+body{
+margin:0;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:url("http://prtsync.ro/18yearsd.png") center/cover no-repeat fixed;
+color:white;
+}
+
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.6);
+z-index:-1;
+}
+
+.wrapper{
+width:90%;
+max-width:950px;
+padding:40px 0;
+}
+
+.logo{
+text-align:center;
+margin-bottom:20px;
+}
+
+.logo img{
+height:65px;
+}
+
+.glass{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+border-radius:30px;
+padding:40px;
+border:1px solid rgba(255,255,255,0.25);
+box-shadow:0 10px 40px rgba(0,0,0,0.4);
+}
+
+h1{
+text-align:center;
+margin-top:0;
+}
+
+.lang{
+text-align:center;
+margin-bottom:25px;
+}
+
+.lang button{
+padding:8px 18px;
+margin:0 6px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.4);
+background:rgba(255,255,255,0.1);
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.lang button:hover{
+background:rgba(255,255,255,0.25);
+}
+
+.section{
+display:none;
+line-height:1.65;
+}
+
+.section.active{
+display:block;
+}
+
+h2{
+margin-top:26px;
+font-size:18px;
+}
+
+.contact{
+margin-top:15px;
+line-height:1.8;
+}
+
+.footer{
+margin-top:30px;
+font-size:13px;
+opacity:0.7;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="logo">
+<img src="http://prtsync.ro/PortoSyncWHITE.png" alt="portoSYNC">
+</div>
+
+<div class="glass">
+
+<div class="lang">
+<button onclick="setLang('ro')">Română</button>
+<button onclick="setLang('en')">English</button>
+</div>
+
+<h1>portoSYNC Privacy</h1>
+
+<!-- ROMANA -->
+
+<div id="ro" class="section active">
+
+<h2>1. Colectarea datelor</h2>
+<p>Platforma poate colecta date precum email, IP și informații despre dispozitiv.</p>
+
+<h2>2. Scopul utilizării</h2>
+<p>Datele sunt utilizate pentru funcționarea serviciului, securitate și prevenirea abuzurilor.</p>
+
+<h2>3. Stocare</h2>
+<p>Datele sunt păstrate doar cât este necesar și în condiții de securitate.</p>
+
+<h2>4. Partajare</h2>
+<p>Datele nu sunt vândute sau distribuite către terți, exceptând obligațiile legale.</p>
+
+<h2>5. Cookie-uri</h2>
+<p>Site-ul poate utiliza cookie-uri pentru sesiune și experiență.</p>
+
+<h2>6. Drepturi</h2>
+<p>Utilizatorii pot solicita accesul sau ștergerea datelor.</p>
+
+<h2>7. Contact</h2>
+
+<div class="contact">
+<strong>Adresă:</strong><br>
+România, jud. Vrancea, comuna Cârligele,<br>
+sat Blidari, strada Cotești, nr. 46<br><br>
+
+<strong>Telefon:</strong><br>
++40778131006<br><br>
+
+<strong>Email:</strong><br>
+contact@prtsync.ro
+</div>
+
+</div>
+
+<!-- ENGLISH -->
+
+<div id="en" class="section">
+
+<h2>1. Data Collection</h2>
+<p>The platform may collect email, IP and device information.</p>
+
+<h2>2. Purpose</h2>
+<p>Data is used for service functionality and security.</p>
+
+<h2>3. Storage</h2>
+<p>Data is stored securely and only as long as needed.</p>
+
+<h2>4. Sharing</h2>
+<p>No data is sold or shared except when required by law.</p>
+
+<h2>5. Cookies</h2>
+<p>Cookies may be used for sessions and experience.</p>
+
+<h2>6. Rights</h2>
+<p>Users can request access or deletion.</p>
+
+<h2>7. Contact</h2>
+
+<div class="contact">
+<strong>Address:</strong><br>
+Romania, Vrancea County,<br>
+Cârligele Commune, Blidari Village,<br>
+Cotești Street, No. 46<br><br>
+
+<strong>Phone:</strong><br>
++40778131006<br><br>
+
+<strong>Email:</strong><br>
+contact@prtsync.ro
+</div>
+
+</div>
+
+<div class="footer">
+© 2026, portoSYNC
+</div>
+
+</div>
+
+</div>
+
+<script>
+function setLang(lang){
+
+document.querySelectorAll(".section").forEach(el=>{
+el.classList.remove("active");
+});
+
+document.getElementById(lang).classList.add("active");
+
+}
+</script>
+
+</body>
+</html>
