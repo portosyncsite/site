@@ -1,1 +1,345 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>portoSYNC TOS</title>
+
+<style>
+
+@font-face {
+  font-family: 'PortoSyncMedium';
+  src: url('https://prtsync.ro/AeonikProRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+box-sizing:border-box;
+font-family: 'PortoSyncMedium';
+}
+
+a{
+color:white;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+opacity:0.8;
+}
+
+body{
+margin:0;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:url("http://prtsync.ro/18yearsd.png") center/cover no-repeat fixed;
+color:white;
+}
+
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.5);
+z-index:-1;
+}
+
+.wrapper{
+width:90%;
+max-width:950px;
+padding:40px 0;
+}
+
+.logo{
+text-align:center;
+margin-bottom:20px;
+}
+
+.logo img{
+height:65px;
+}
+
+.glass{
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(20px);
+-webkit-backdrop-filter:blur(20px);
+border-radius:30px;
+padding:40px;
+border:1px solid rgba(255,255,255,0.25);
+box-shadow:0 10px 40px rgba(0,0,0,0.4);
+}
+
+h1{
+text-align:center;
+margin-top:0;
+}
+
+.lang{
+text-align:center;
+margin-bottom:25px;
+}
+
+.lang button{
+padding:8px 18px;
+margin:0 6px;
+border-radius:12px;
+border:1px solid rgba(255,255,255,0.4);
+background:rgba(255,255,255,0.1);
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.lang button:hover{
+background:rgba(255,255,255,0.25);
+}
+
+.section{
+display:none;
+line-height:1.65;
+}
+
+.section.active{
+display:block;
+}
+
+h2{
+margin-top:26px;
+font-size:18px;
+}
+
+p{
+opacity:0.95;
+}
+
+ul{
+opacity:0.9;
+}
+
+.contact{
+margin-top:15px;
+line-height:1.8;
+}
+
+.footer{
+margin-top:30px;
+font-size:13px;
+opacity:0.7;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<div class="logo">
+<img src="http://prtsync.ro/PortoSyncWHITE.png" alt="PortoSYNC">
+</div>
+
+<div class="glass">
+
+<div class="lang">
+<button onclick="setLang('ro')">Română</button>
+<button onclick="setLang('en')">English</button>
+</div>
+
+<h1>portoSYNC TOS</h1>
+
+<!-- ROMANA -->
+
+<div id="ro" class="section active">
+
+<h2>1. Acceptarea termenilor</h2>
+<p>Prin utilizarea platformei, utilizatorul confirmă că a citit și acceptat acești Termeni și Condiții.</p>
+
+<h2>2. Descrierea serviciului</h2>
+<p>Platforma oferă acces la conținut media și streamuri online prin intermediul interfeței web.</p>
+
+<h2>3. Abonament</h2>
+<p>Serviciul este oferit gratuit. Chiar dacă anumite funcționalități pot fi asociate cu un abonament, valoarea acestuia nu este rambursabilă.</p>
+<p>Utilizatorii pot solicita ștergerea sau anularea contului în orice moment.</p>
+
+<h2>4. Contul utilizatorului</h2>
+<p>Utilizatorii sunt responsabili pentru securitatea contului și pentru activitățile realizate prin acesta.</p>
+
+<h2>5. Utilizare acceptabilă</h2>
+<ul>
+<li>Este interzisă copierea sau redistribuirea conținutului</li>
+<li>Este interzisă extragerea fișierelor sau datelor</li>
+<li>Este interzisă utilizarea serviciului în scopuri ilegale</li>
+</ul>
+
+<h2>6. Protecția conținutului</h2>
+<p>Platforma este proiectată pentru a preveni copierea sau extragerea neautorizată a conținutului.</p>
+
+<h2>7. Surse de streaming</h2>
+<p>Streamurile provin din surse considerate legale sau autorizate. Platforma nu utilizează în mod intenționat surse piratate.</p>
+
+<h2>8. Politica fotografiei de profil</h2>
+<p>Administratorul poate restricționa conturile care folosesc imagini:</p>
+
+<ul>
+<li>cu conținut explicit sau 18+</li>
+<li>cu identitatea altor persoane fără consimțământ</li>
+<li>cu conținut ofensator sau ilegal</li>
+</ul>
+
+<h2>9. Partajarea contului</h2>
+<p>Conturile sunt destinate utilizării personale. Partajarea contului poate duce la suspendarea acestuia.</p>
+
+<h2>10. Disponibilitatea serviciului</h2>
+<p>Platforma nu garantează funcționarea continuă sau disponibilitatea permanentă a streamurilor.</p>
+
+<h2>11. Suspendarea contului</h2>
+<p>Administratorul poate suspenda sau dezactiva conturi în cazul încălcării termenilor.</p>
+
+<h2>12. Limitarea responsabilității</h2>
+<p>Platforma nu este responsabilă pentru întreruperi ale serviciului sau conținut furnizat de terți.</p>
+
+<h2>13. Modificarea termenilor</h2>
+<p>Termenii pot fi modificați în orice moment.</p>
+
+<h2>14. Marcă</h2>
+<p>Denumirea portoSYNC nu este marcă înregistrată oficial.</p>
+
+<h2>15. Despre platformă</h2>
+<p>Termenii „portoSYNC”, „platforma”, „noi” sau „serviciul” se referă la platforma IPTV disponibilă pe site-ul prtsync.ro.</p>
+
+<h2>16. Modificări ale site-ului</h2>
+<p>Site-ul prtsync.ro poate suferi modificări, actualizări sau îmbunătățiri în orice moment fără notificare prealabilă.</p>
+
+<h2>17. Metode de contact</h2>
+
+<div class="contact">
+
+<strong>Adresă:</strong><br>
+România, jud. Vrancea, comuna Cârligele,
+sat Blidari, strada Cotești, nr. 46 <br><br>
+
+<strong>Telefon:</strong><br>
++40778131006<br><br>
+
+<strong>Email:</strong><br>
+contact@prtsync.ro
+
+</div>
+
+</div>
+
+<!-- ENGLISH -->
+
+<div id="en" class="section">
+
+<h2>1. Acceptance of Terms</h2>
+<p>By using this platform, users agree to these Terms of Service.</p>
+
+<h2>2. Description of Service</h2>
+<p>The platform provides access to media content and streaming services.</p>
+
+<h2>3. Subscription</h2>
+<p>The service is provided free of charge. Any subscription value is non-refundable.</p>
+
+<h2>4. User Accounts</h2>
+<p>Users are responsible for maintaining the security of their accounts.</p>
+
+<h2>5. Acceptable Use</h2>
+<ul>
+<li>No copying or redistribution of content</li>
+<li>No extraction of files or data</li>
+<li>No illegal use of the service</li>
+</ul>
+
+<h2>6. Content Protection</h2>
+<p>The platform is designed to prevent unauthorized copying or extraction of content.</p>
+
+<h2>7. Streaming Sources</h2>
+<p>Streams originate from sources believed to be legal or authorized.</p>
+
+<h2>8. Profile Picture Policy</h2>
+<p>Accounts may be restricted if profile pictures contain:</p>
+
+<ul>
+<li>explicit or 18+ content</li>
+<li>images of another person without consent</li>
+<li>offensive or illegal content</li>
+</ul>
+
+<h2>9. Account Sharing</h2>
+<p>Accounts are intended for personal use only.</p>
+
+<h2>10. Service Availability</h2>
+<p>The platform does not guarantee uninterrupted service.</p>
+
+<h2>11. Account Suspension</h2>
+<p>The administrator may suspend accounts that violate these terms.</p>
+
+<h2>12. Limitation of Liability</h2>
+<p>The platform is not responsible for service interruptions or third-party content.</p>
+
+<h2>13. Changes to Terms</h2>
+<p>These terms may be updated at any time.</p>
+
+<h2>14. Trademark Notice</h2>
+<p>The name portoSYNC is not officially registered as a trademark.</p>
+
+<h2>15. About the Platform</h2>
+<p>“portoSYNC”, “the platform”, or “the service” refers to the IPTV platform available at prtsync.ro.</p>
+
+<h2>16. Website Changes</h2>
+<p>The website prtsync.ro may be modified or updated at any time without prior notice.</p>
+
+<h2>17. Contact Information</h2>
+
+<div class="contact">
+
+<strong>Address:</strong><br>
+Romania, Vrancea County,
+Cârligele Commune, Blidari Village,
+Cotești Street, No. 46<br><br>
+
+<strong>Phone:</strong><br>
++40778131006<br><br>
+
+<strong>Email:</strong><br>
+contact@prtsync.ro
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026, portoSYNC
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+function setLang(lang){
+
+document.querySelectorAll(".section").forEach(el=>{
+el.classList.remove("active");
+});
+
+document.getElementById(lang).classList.add("active");
+
+}
+
+</script>
+
+</body>
+</html>
