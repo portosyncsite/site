@@ -5,100 +5,66 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Focus FM</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-
 <style>
 *{box-sizing:border-box;margin:0;padding:0;font-family:'Plus Jakarta Sans',sans-serif}
-
 body{background:#0f0f0f;color:#fff;line-height:1.6;transition:background .3s,color .3s}
-
 body.light{background:#f5f5f5;color:#111}
-
 main{max-width:1300px;margin:auto;padding:0 20px}
-
 header{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;position:sticky;top:0;background:rgba(0,0,0,.6);backdrop-filter:blur(10px);z-index:1000}
-
 body.light header{background:rgba(255,255,255,.8)}
-
 #logo{height:50px}
-
 nav{display:flex;gap:1.2rem;flex-wrap:wrap}
-
 nav a{text-decoration:none;color:white;font-weight:600}
-
-body.light nav a{color:#fff}
-
-nav a:hover{color:#fff}
-
+body.light nav a{color:#111}
+nav a:hover{color:#ff0}
 #mode-toggle{cursor:pointer;font-size:1.4rem}
-
 .hero{margin-top:20px;padding:80px 20px;text-align:center;border-radius:20px;background:linear-gradient(135deg,#111,#333)}
-
 body.light .hero{background:linear-gradient(135deg,#fff,#eaeaea)}
-
 .hero h1{font-size:3rem;margin-bottom:10px}
 .hero p{opacity:.8;margin-bottom:20px}
 .hero audio{width:400px;max-width:90%}
-
 .section{padding:60px 0;text-align:center}
 .section h2{margin-bottom:30px;font-size:2rem}
-
 .ads{display:flex;justify-content:center;margin:40px auto}
 .ad-banner{width:868px;max-width:100%;border-radius:12px}
-
 .realizatori{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;max-width:1100px;margin:auto}
-
-.realizator-card{background:rgba(255,255,255,.05);padding:1.5rem;border-radius:20px;transition:.3s}
-
+.realizator-card{background:rgba(255,255,255,.05);padding:1.5rem;border-radius:20px;transition:.3s;text-align:center}
 body.light .realizator-card{background:rgba(0,0,0,.05)}
-
 .realizator-card:hover{transform:translateY(-5px)}
-
 .realizator-card img{width:120px;height:120px;border-radius:50%;object-fit:cover;margin-bottom:10px}
-
+.realizator-card h3{font-size:1.2rem;font-weight:700;margin-bottom:5px}
+.realizator-card p{opacity:.8}
 .youtube-embed{max-width:900px;margin:auto}
-
 .youtube-embed iframe{width:100%;aspect-ratio:16/9;border-radius:12px}
-
 .top10{max-width:500px;margin:40px auto;display:flex;flex-direction:column;gap:10px}
-
 .top10 div{display:flex;justify-content:space-between;padding:12px 16px;border-radius:10px;background:rgba(255,255,255,.05)}
-
 body.light .top10 div{background:rgba(0,0,0,.05)}
-
 .top10 div:hover{background:#ff0;color:#000}
-
 .video-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px;max-width:1100px;margin:auto}
-
 .video-list iframe{width:100%;aspect-ratio:16/9;border-radius:12px}
-
 .frecvente{background:rgba(255,255,255,.05);padding:30px;border-radius:15px;max-width:500px;margin:auto}
 body.light .frecvente{background:rgba(0,0,0,.05)}
-
 .contact{background:rgba(255,255,255,.05);padding:30px;border-radius:15px;max-width:500px;margin:auto}
 body.light .contact{background:rgba(0,0,0,.05)}
-
 .socials{display:flex;justify-content:center;gap:20px;margin:50px 0}
-
 .socials img{width:40px;filter:grayscale(1);transition:.3s}
 .socials img:hover{filter:none;transform:scale(1.2)}
-
 footer{text-align:center;padding:40px 20px;background:#000;margin-top:40px}
 body.light footer{background:#eaeaea;color:#000}
-
 footer a{color:#fff;text-decoration:none}
-
-@media(max-width:768px){
-.hero h1{font-size:2rem}
-header{flex-direction:column;gap:10px}
-}
+.rss-card{background:rgba(255,255,255,.05);margin:10px auto;padding:15px;border-radius:12px;max-width:800px;transition:transform .3s}
+.rss-card:hover{transform:scale(1.02)}
+.rss-card a{color:#ff0;font-weight:600;text-decoration:none}
+.rss-card small{display:block;margin-bottom:5px;color:#aaa}
+.rss-card p{color:#ddd;font-size:.9rem}
+body.light .rss-card{background:rgba(0,0,0,.05);color:#111}
+@media(max-width:768px){.hero h1{font-size:2rem}header{flex-direction:column;gap:10px}}
 </style>
 </head>
-
 <body>
 
 <header>
 <img src="focus.png" id="logo">
-
 <nav>
 <a href="#player">Ascultă</a>
 <a href="#echipa">Echipă</a>
@@ -106,64 +72,51 @@ header{flex-direction:column;gap:10px}
 <a href="#top10">Top 10</a>
 <a href="#videos">Videoclipuri</a>
 <a href="#frecvente">Frecvențe</a>
+<a href="#rss">Știri</a>
 <a href="#contact">Contact</a>
 </nav>
-
 <div id="mode-toggle">🌙</div>
 </header>
 
 <main>
-
-<section id="playlist" class="section">
-<h2>Playlist</h2>
-
-<div class="youtube-embed">
-
-<iframe
-src="https://www.youtube-nocookie.com/embed/videoseries?list=PL51QAdHTsIrVkq3hWWRu_gBkUsQm_TWJE"
-title="Playlist Focus FM"
-loading="lazy"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen>
-</iframe>
-
-</div>
-</section>
-
-<section class="ads">
-<img src="prt.png" class="ad-banner">
-</section>
-
 <section class="hero" id="player">
 <h1>Focus FM</h1>
 <p>Ascultă radio-ul tău preferat</p>
-
 <audio id="stream" controls autoplay playsinline>
 <source src="https://stream1.rdstrm.com/focus-fm.ogg" type="audio/ogg">
 </audio>
 </section>
 
 <section class="ads">
-<img src="mradeshow.png" class="ad-banner">
-</section>
-
+<img src="ad1.png" class="ad-banner">
+<img src="ad2.png" class="ad-banner">
 </section>
 
 <section id="echipa" class="section">
 <h2>Echipă Focus FM</h2>
 <div class="realizatori">
-
 <div class="realizator-card">
 <img src="pfpprt.png">
 <h3>Marian Alexandru Marcu</h3>
 <p>Editor Web</p>
 </div>
-
+<div class="realizator-card">
+<img src="pfpprt.png">
+<h3>Alt Realizator</h3>
+<p>DJ / Gazdă emisiune</p>
 </div>
+</div>
+</section>
+
+<section id="playlist" class="section">
+<h2>Playlist</h2>
+<div class="youtube-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PLxxxxxxx" title="Playlist Focus FM" loading="lazy" allowfullscreen></iframe>
+</div>
+</section>
 
 <section id="top10" class="section">
 <h2>Top 10</h2>
-
 <div class="top10">
 <div>1. Melodie 1</div>
 <div>2. Melodie 2</div>
@@ -171,26 +124,18 @@ allowfullscreen>
 <div>4. Melodie 4</div>
 <div>5. Melodie 5</div>
 </div>
-
 </section>
 
 <section id="videos" class="section">
 <h2>Videoclipuri</h2>
-
 <div class="video-list">
-
-<iframe src="https://www.youtube-nocookie.com/embed/_r21OlrDF5g?playsinline=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-
-<iframe src="https://www.youtube-nocookie.com/embed/k1unjivA3Sw?playsinline=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-
-<iframe src="https://www.youtube-nocookie.com/embed/NYgnb2FFlAk?playsinline=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-
+<iframe src="https://www.youtube-nocookie.com/embed/_r21OlrDF5g" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/k1unjivA3Sw" allowfullscreen></iframe>
 </div>
 </section>
 
 <section id="frecvente" class="section">
 <h2>Frecvențe</h2>
-
 <div class="frecvente">
 <p>97.0 - Brăila</p>
 <p>93.8 - Buzău</p>
@@ -200,16 +145,19 @@ allowfullscreen>
 </div>
 </section>
 
+<section id="rss" class="section">
+<h2>Știri TVInfo</h2>
+<div id="rss-feed"></div>
+</section>
+
 <section id="contact" class="section">
 <h2>Date legale</h2>
-
 <div class="contact">
 <p>MEDIA GRUP PRODUCTION SRL</p>
 <p>Telefon: 0722 123 456</p>
 <p>CUI: 15032728</p>
 <p>Buzău, România</p>
 </div>
-
 </section>
 
 </main>
@@ -222,63 +170,45 @@ allowfullscreen>
 </div>
 
 <footer>
-  <div>Făcut de Marian Alexandru Marcu | Președintele & Fondator <a href="https://prtsync.ro" target="_blank">portoSYNC</a></div>
-  <div class="footer-links">
-    <a href="https://www.cna.ro" target="_blank">CNA</a> |
-    <a href="https://www.anpc.ro" target="_blank">ANPC</a>
-  </div>
+<div>Făcut de Marian Alexandru Marcu | Președintele & Fondator <a href="https://prtsync.ro" target="_blank">portoSYNC</a></div>
+<div class="footer-links">
+<a href="https://www.cna.ro" target="_blank">CNA</a> |
+<a href="https://www.anpc.ro" target="_blank">ANPC</a>
+</div>
 </footer> 
 
 <script>
-
-const toggle=document.getElementById("mode-toggle")
-
+const toggle=document.getElementById("mode-toggle");
 function setTheme(theme){
-if(theme==="light"){
-document.body.classList.add("light")
-toggle.textContent="☀️"
-}else{
-document.body.classList.remove("light")
-toggle.textContent="🌙"
-}
-localStorage.setItem("theme",theme)
-}
-
+if(theme==="light"){document.body.classList.add("light");toggle.textContent="☀️"}else{document.body.classList.remove("light");toggle.textContent="🌙"}
+localStorage.setItem("theme",theme)}
 const savedTheme=localStorage.getItem("theme")
-
-if(savedTheme){
-setTheme(savedTheme)
-}else if(window.matchMedia('(prefers-color-scheme: light)').matches){
-setTheme("light")
-}
-
-toggle.onclick=()=>{
-if(document.body.classList.contains("light")){
-setTheme("dark")
-}else{
-setTheme("light")
-}
-}
+if(savedTheme){setTheme(savedTheme)}else if(window.matchMedia('(prefers-color-scheme: light)').matches){setTheme("light")}
+toggle.onclick=()=>{if(document.body.classList.contains("light")){setTheme("dark")}else{setTheme("light")}}
 
 const audio=document.getElementById("stream")
-
 if('mediaSession' in navigator){
-
 navigator.mediaSession.metadata=new MediaMetadata({
-title:'Focus FM',
-artist:'focusfm.ro - site refăcut de portoSYNC',
-album:'Live Radio',
-artwork:[
-{src:'focusfav.png',sizes:'96x96',type:'image/png'},
-{src:'focusfav.png',sizes:'192x192',type:'image/png'},
-{src:'focusfav.png',sizes:'512x512',type:'image/png'}
-]
+title:'Focus FM',artist:'focusfm.ro - site refăcut de portoSYNC',album:'Live Radio',
+artwork:[{src:'focusfav.png',sizes:'96x96',type:'image/png'},{src:'focusfav.png',sizes:'192x192',type:'image/png'},{src:'focusfav.png',sizes:'512x512',type:'image/png'}]
 })
-
 navigator.mediaSession.setActionHandler('play',()=>audio.play())
 navigator.mediaSession.setActionHandler('pause',()=>audio.pause())
 }
 
+// RSS Feed
+const rssFeed = document.getElementById('rss-feed');
+fetch('rss-proxy.php')
+.then(res=>res.json())
+.then(data=>{
+if(data.error){rssFeed.innerHTML=`<p>${data.error}</p>`;return}
+data.items.slice(0,6).forEach(item=>{
+const card=document.createElement('div');
+card.className='rss-card';
+card.innerHTML=`<a href="${item.link}" target="_blank">${item.title}</a><small>${new Date(item.pubDate).toLocaleDateString()}</small><p>${item.description}</p>`;
+rssFeed.appendChild(card);
+})
+}).catch(err=>{rssFeed.innerHTML='<p>Nu am putut încărca știrile.</p>';console.error(err)});
 </script>
 
 </body>
