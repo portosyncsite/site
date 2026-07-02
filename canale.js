@@ -1990,15 +1990,78 @@ const channels = [
 },
 {
     "id": 246,
-    "name": "portoSYNC XXX 4K",
+    "name": "portoSYNC XXX 23",
     "theme": "adulți",
-    "streamUrl": "https://live.prtsync.ro/prt4k.mp4",
+    "streamUrl": "https://live.prtsync.ro/prt23.mp4",
     "type": "video",
     "password": "ADULT",
-    "description": "portoSYNC XXX 4K"
+    "description": "portoSYNC XXX 23"
 },
     {
-        "id":247,
+    "id": 247,
+    "name": "portoSYNC XXX 24",
+    "theme": "adulți",
+    "streamUrl": "https://live.prtsync.ro/prt24.mp4",
+    "type": "video",
+    "password": "ADULT",
+    "description": "portoSYNC XXX 24"
+},
+    {
+    "id": 248,
+    "name": "portoSYNC XXX 25",
+    "theme": "adulți",
+    "streamUrl": "https://live.prtsync.ro/prt25.mp4",
+    "type": "video",
+    "password": "ADULT",
+    "description": "portoSYNC XXX 25"
+},
+    {
+    "id": 249,
+    "name": "portoSYNC XXX 26",
+    "theme": "adulți",
+    "streamUrl": "https://live.prtsync.ro/prt26.mp4",
+    "type": "video",
+    "password": "ADULT",
+    "description": "portoSYNC XXX 26"
+},
+    {
+    "id": 250,
+    "name": "portoSYNC XXX 27",
+    "theme": "adulți",
+    "streamUrl": "https://live.prtsync.ro/prt23.mp4",
+    "type": "video",
+    "password": "ADULT",
+    "description": "portoSYNC XXX 27"
+},
+    {
+    "id": 251,
+    "name": "portoSYNC XXX 28",
+    "theme": "adulți",
+    "streamUrl": "https://live.prtsync.ro/prt23.mp4",
+    "type": "video",
+    "password": "ADULT",
+    "description": "portoSYNC XXX 28"
+},
+    {
+    "id": 252,
+    "name": "portoSYNC XXX 29",
+    "theme": "adulți",
+    "streamUrl": "https://live.prtsync.ro/prt29.mp4",
+    "type": "video",
+    "password": "ADULT",
+    "description": "portoSYNC XXX 29"
+},
+    {
+    "id": 253,
+    "name": "portoSYNC XXX 30",
+    "theme": "adulți",
+    "streamUrl": "https://live.prtsync.ro/prt30.mp4",
+    "type": "video",
+    "password": "ADULT",
+    "description": "portoSYNC XXX 30"
+},
+    {
+        "id":254,
         "name": "EroticArt",
         "theme": "adulți",
         "description": "EroticArt",
@@ -2007,7 +2070,7 @@ const channels = [
         "password": "ADULT"
     },
     {
-        "id": 248,
+        "id": 255,
         "name": "portoSYNC RADIO",
         "theme": "radio",
         "description": "portoSYNC RADIO este primul canal de radio cu muzică 24/7 din cadrul portoSYNC.",
@@ -2015,7 +2078,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 249,
+        "id": 256,
         "name": "portoSYNC RADIO 2",
         "theme": "radio",
         "description": "portoSYNC RADIO 2 este al doilea canal de radio cu muzică 24/7 din cadrul portoSYNC.",
@@ -2023,7 +2086,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 250,
+        "id": 257,
         "name": "portoSYNC RADIO 3",
         "theme": "radio",
         "description": "portoSYNC RADIO 3 este al treilea canal de radio cu muzică 24/7 din cadrul portoSYNC.",
@@ -2031,7 +2094,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 251,
+        "id": 258,
         "name": "portoSYNC RADIO Colinde",
         "theme": "radio",
         "description": "portoSYNC RADIO Colinde",
@@ -2039,7 +2102,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 252,
+        "id": 259,
         "name": "Aservo RADIO",
         "theme": "radio",
         "description": "Aservo RADIO este primul canal de radio cu muzică 24/7 din cadrul Aservo.",
@@ -2047,7 +2110,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 253,
+        "id": 260,
         "name": "Aservo RADIO 2",
         "theme": "radio",
         "description": "Aservo RADIO 2 este al doilea canal de radio cu muzică 24/7 din cadrul Aservo.",
@@ -2055,7 +2118,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 254,
+        "id": 261,
         "name": "Aservo RADIO 3",
         "theme": "radio",
         "description": "Aservo RADIO 3 este al treilea canal de radio cu muzică 24/7 din cadrul Aservo.",
@@ -2063,7 +2126,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 255,
+        "id": 262,
         "name": "Aservo RADIO Colinde",
         "theme": "radio",
         "description": "Aservo RADIO Colinde",
@@ -2071,7 +2134,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 256,
+        "id": 263,
         "name": "vranceaSYNC",
         "theme": "radio",
         "description": "vranceaSYNC",
@@ -2079,7 +2142,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 257,
+        "id": 264,
         "name": "Ade Radio",
         "theme": "radio",
         "description": "Ade Radio este primul canal radio marca Ade Media.",
@@ -2087,7 +2150,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 258,
+        "id": 265,
         "name": "Ade Radio Colinde",
         "theme": "radio",
         "description": "Ade Radio Colinde",
@@ -2095,7 +2158,7 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 259,
+        "id": 266,
         "name": "Alpha Radio",
         "theme": "radio",
         "description": "Alpha Radio",
@@ -2103,13 +2166,15 @@ const channels = [
         "type": "audio"
     },
     {
-        "id": 260,
+        "id": 267,
         "name": "Alpha Radio Colinde",
         "theme": "radio",
         "description": "Alpha Radio Colinde",
         "streamUrl": "https://stream-170.zeno.fm/owyv2kqb88hvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvd3l2MmtxYjg4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzAuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ik1iMzhTNUJYUzlDQi1IR21ZTGZGU2ciLCJpYXQiOjE3NjM2NjQ3NTIsImV4cCI6MTc2MzY2NDgxMn0.QwC1xZfZNEVm6MBbd6MPsWDzYBNW5lywyCP2wf5Ftlg",
         "type": "audio"
     },
+
+    
     {
         "id": 261,
         "name": "Bytey RADIO",
